@@ -1,0 +1,1623 @@
+<?xml version="1.0" encoding="KOI8-R"?>
+<area>
+  <areadata>
+    <authors>Copper</authors>
+    <credits>Plains of the North</credits>
+    <levelHigh>20</levelHigh>
+    <levelLow>1</levelLow>
+    <name>Plains</name>
+    <security>9</security>
+    <vnumHigh>399</vnumHigh>
+    <vnumLow>300</vnumLow>
+    <speedwalk>4e3n2wn</speedwalk>
+  </areadata>
+  <mobiles>
+    <node name="300">
+      <ac bash="-1" exotic="8" pierce="-1" slash="-1"/>
+      <act add="npc stay_area wimpy"/>
+      <alignment>-500</alignment>
+      <dam_type>none</dam_type>
+      <damage>2d5+3</damage>
+      <default_pos>stand</default_pos>
+      <description>Aruncus is a tall, skinny druid with a face marked by nature.
+He seems to be in peace with himself and his surroundings.
+</description>
+      <detection add="invis"/>
+      <hit>2d10+170</hit>
+      <level>13</level>
+      <long_descr>Aruncus the Druid is walking around here, searching for herbs.
+</long_descr>
+      <mana>6d9+100</mana>
+      <material>0</material>
+      <off add="disarm dodge trip assist_vnum"/>
+      <player_name>druid Aruncus</player_name>
+      <practicer>nature</practicer>
+      <race>human</race>
+      <sex>male</sex>
+      <short_descr>Aruncus the Druid</short_descr>
+      <size>medium</size>
+      <start_pos>stand</start_pos>
+      <wealth>25</wealth>
+    </node>
+    <node name="301">
+      <ac bash="6" exotic="9" pierce="6" slash="6"/>
+      <act add="npc sentinel"/>
+      <dam_type>none</dam_type>
+      <damage>1d5+1</damage>
+      <default_pos>sit</default_pos>
+      <description>Sorbus bares the marks of a long, hard life in solitude.
+He is dressed in simple clothing and looks like he has little
+or nothing to say.
+</description>
+      <hit>2d7+46</hit>
+      <level>4</level>
+      <long_descr>Sorbus the Hermit is sitting here, roasting a rabbit.
+</long_descr>
+      <mana>2d9+100</mana>
+      <material>0</material>
+      <off add="disarm dodge trip assist_vnum"/>
+      <player_name>hermit sorbus</player_name>
+      <race>human</race>
+      <sex>male</sex>
+      <short_descr>Sorbus the Hermit</short_descr>
+      <size>medium</size>
+      <start_pos>sit</start_pos>
+    </node>
+    <node name="303">
+      <ac bash="4" exotic="9" pierce="4" slash="4"/>
+      <act add="npc scavenger stay_area"/>
+      <dam_type>none</dam_type>
+      <damage>1d7+1</damage>
+      <default_pos>stand</default_pos>
+      <description>He seems like a nice person with no interest in harming you or others.
+He wears normal, light clothing and has an anonymous face.
+</description>
+      <hit>2d7+71</hit>
+      <level>6</level>
+      <long_descr>There is a citizen of Ofcol here glaring at you ... stranger!
+</long_descr>
+      <mana>3d9+100</mana>
+      <material>0</material>
+      <off add="disarm dodge trip assist_vnum"/>
+      <player_name>citizen</player_name>
+      <race>human</race>
+      <sex>male</sex>
+      <short_descr>the citizen</short_descr>
+      <size>medium</size>
+      <start_pos>stand</start_pos>
+      <wealth>10</wealth>
+    </node>
+    <node name="304">
+      <ac bash="5" exotic="9" pierce="5" slash="5"/>
+      <act add="npc scavenger stay_area"/>
+      <dam_type>none</dam_type>
+      <damage>1d6+1</damage>
+      <default_pos>stand</default_pos>
+      <description>She seems like a nice person with no interest in harming you or others.
+She wears a minimum of clothing and has big ... eyes.
+</description>
+      <hit>2d6+60</hit>
+      <level>5</level>
+      <long_descr>There is a citizen of Ofcol here glaring at you ... stranger!
+</long_descr>
+      <mana>2d9+100</mana>
+      <material>0</material>
+      <off add="disarm dodge trip assist_vnum"/>
+      <player_name>citizen</player_name>
+      <race>human</race>
+      <sex>female</sex>
+      <short_descr>the citizen</short_descr>
+      <size>medium</size>
+      <start_pos>stand</start_pos>
+      <wealth>5</wealth>
+    </node>
+    <node name="305">
+      <ac bash="-6" exotic="6" pierce="-6" slash="-6"/>
+      <act add="npc sentinel aggressive"/>
+      <alignment>-1000</alignment>
+      <dam_type>none</dam_type>
+      <damage>2d10+6</damage>
+      <default_pos>stand</default_pos>
+      <description>Shudde-M&apos;ell is about 15 ft long and is surrounded by an evil stench,
+The worm is the protector of the treasure of G&apos;harne and has been so
+for as long anyone can remember.
+</description>
+      <detection add="invis"/>
+      <hit>5d10+500</hit>
+      <level>24</level>
+      <long_descr>Shudde-M&apos;ell the Giant worm of G&apos;harne is guarding his treasure.
+</long_descr>
+      <mana>12d9+100</mana>
+      <material>0</material>
+      <off add="disarm trip assist_vnum"/>
+      <player_name>worm Shudde-M&apos;ell</player_name>
+      <race>worm</race>
+      <sex>male</sex>
+      <short_descr>Shudde-M&apos;ell</short_descr>
+      <size>medium</size>
+      <start_pos>stand</start_pos>
+      <wealth>683</wealth>
+    </node>
+    <node name="306">
+      <ac bash="-6" exotic="6" pierce="-6" slash="-6"/>
+      <act add="npc sentinel scavenger"/>
+      <alignment>400</alignment>
+      <behavior type="ShopTrader">
+        <buys>light potion clothing food gem jewelry</buys>
+        <closeHour>23</closeHour>
+        <openHour>0</openHour>
+        <profitBuy>120</profitBuy>
+        <profitSell>60</profitSell>
+      </behavior>
+      <dam_type>none</dam_type>
+      <damage>3d6+6</damage>
+      <default_pos>stand</default_pos>
+      <description>Luxan is dressed in a strange jacket.
+He looks like a mean trader from the outskirts of Midgaard.
+His life is seems to be totally occupied with trading.
+He looks very fit and capable of protecting his goods.
+</description>
+      <hit>5d10+450</hit>
+      <level>23</level>
+      <long_descr>Luxan the Shopkeeper is here, eager to sell you anything.
+</long_descr>
+      <mana>11d9+100</mana>
+      <material>0</material>
+      <off add="disarm dodge trip assist_vnum"/>
+      <player_name>luxan shopkeeper</player_name>
+      <race>human</race>
+      <sex>male</sex>
+      <short_descr>Luxan</short_descr>
+      <size>medium</size>
+      <start_pos>stand</start_pos>
+      <wealth>400</wealth>
+    </node>
+    <node name="308">
+      <ac bash="-6" exotic="6" pierce="-6" slash="-6"/>
+      <act add="npc sentinel"/>
+      <alignment>-100</alignment>
+      <behavior type="ShopTrader">
+        <buys>gem</buys>
+        <closeHour>23</closeHour>
+        <openHour>0</openHour>
+        <profitBuy>110</profitBuy>
+        <profitSell>100</profitSell>
+      </behavior>
+      <dam_type>none</dam_type>
+      <damage>3d6+6</damage>
+      <default_pos>stand</default_pos>
+      <description>The Innkeeper looks skilled in brewing different beers and mixing the
+wierdest drinks known. He also looks very big.
+</description>
+      <hit>5d10+450</hit>
+      <level>23</level>
+      <long_descr>An Innkeeper is here waiting for your order.
+</long_descr>
+      <mana>11d9+100</mana>
+      <material>0</material>
+      <off add="disarm dodge trip assist_vnum"/>
+      <player_name>keeper innkeeper</player_name>
+      <race>human</race>
+      <sex>male</sex>
+      <short_descr>the Innkeeper</short_descr>
+      <size>medium</size>
+      <start_pos>stand</start_pos>
+      <wealth>5</wealth>
+    </node>
+    <node name="309">
+      <ac bash="9" exotic="10" pierce="9" slash="9"/>
+      <act add="npc stay_area"/>
+      <dam_type>none</dam_type>
+      <damage>1d4+0</damage>
+      <default_pos>stand</default_pos>
+      <description>It is a small, furry creature with long ears and big feet.
+</description>
+      <hit>2d6+10</hit>
+      <level>1</level>
+      <long_descr>A cute rabbit is here.
+</long_descr>
+      <mana>0d9+100</mana>
+      <material>0</material>
+      <off add="disarm trip assist_race"/>
+      <player_name>rabbit</player_name>
+      <race>rabbit</race>
+      <sex>either</sex>
+      <short_descr>the cute rabbit</short_descr>
+      <size>medium</size>
+      <start_pos>stand</start_pos>
+    </node>
+    <node name="350">
+      <ac bash="2" exotic="6" pierce="2" slash="2"/>
+      <act add="npc sentinel wimpy mage"/>
+      <aff add="sanctuary"/>
+      <alignment>1000</alignment>
+      <dam_type>none</dam_type>
+      <damage>1d8+1</damage>
+      <default_pos>stand</default_pos>
+      <description>Ravan&apos;s pet dragon is about 3 ft. tall with small pointy teeth.
+The small wings are eagerly trying to lift her from the ground,
+but so far they haven&apos;t succeeded.
+</description>
+      <detection add="invis"/>
+      <hit>2d6+110</hit>
+      <level>10</level>
+      <long_descr>Ravan&apos;s pet dragon is bouncing around here flapping her cute wings.
+</long_descr>
+      <mana>10d9+100</mana>
+      <material>0</material>
+      <off add="dodge assist_race"/>
+      <player_name>dragon pet</player_name>
+      <race>dragon</race>
+      <sex>female</sex>
+      <short_descr>the pet dragon</short_descr>
+      <size>medium</size>
+      <start_pos>stand</start_pos>
+    </node>
+  </mobiles>
+  <objects>
+    <node name="300">
+      <cost>10</cost>
+      <description>Some herbs are lying here, small green leaves and tiny pink flowers.</description>
+      <extraDescr>
+        <node keyword="herbs herb timian">This herb smells rather spicy; maybe you should try it?
+</node>
+      </extraDescr>
+      <gender>m</gender>
+      <material>plant_organism</material>
+      <name>herbs herb timian</name>
+      <short_descr>a small dusk of timian herbs</short_descr>
+      <type name="food">
+        <foodHours>1</foodHours>
+        <fullHours>1</fullHours>
+      </type>
+      <wear_flags>take</wear_flags>
+      <weight>10</weight>
+    </node>
+    <node name="301">
+      <cost>10</cost>
+      <description>Some black gyvel is lying here, dark green with black leaves and tiny
+blood red flowers.</description>
+      <extraDescr>
+        <node keyword="herbs herb gyvel">This herb smells rather special, but is it poisonous?
+</node>
+      </extraDescr>
+      <gender>m</gender>
+      <material>food</material>
+      <name>herbs herb gyvel</name>
+      <short_descr>a small dusk of black gyvel</short_descr>
+      <type name="food">
+        <foodHours>1</foodHours>
+        <fullHours>1</fullHours>
+      </type>
+      <wear_flags>take</wear_flags>
+      <weight>10</weight>
+    </node>
+    <node name="302">
+      <description>Some poison ivy is growing here.</description>
+      <extraDescr>
+        <node keyword="plant ivy">This plant has dark green juicy leaves.
+You notice some small white thorns on it.</node>
+      </extraDescr>
+      <gender>m</gender>
+      <material>plant_organism</material>
+      <name>plant ivy</name>
+      <short_descr>a small dusk of poison ivy</short_descr>
+      <type name="food">
+        <foodHours>1</foodHours>
+        <fullHours>1</fullHours>
+        <poisoned>true</poisoned>
+      </type>
+      <wear_flags>take</wear_flags>
+      <weight>10</weight>
+    </node>
+    <node name="303">
+      <cost>20</cost>
+      <description>A small jar in a dark, red colour.</description>
+      <extraDescr>
+        <node keyword="blood jar">The jar is made of dry clay, covered with markings suggesting its
+occult origin.
+</node>
+      </extraDescr>
+      <gender>m</gender>
+      <material>glass</material>
+      <name>blood jar</name>
+      <short_descr>a dark red jar</short_descr>
+      <type name="drink">
+        <left>2</left>
+        <liquid>blood</liquid>
+        <total>2</total>
+      </type>
+      <wear_flags>take</wear_flags>
+      <weight>20</weight>
+    </node>
+    <node name="304">
+      <description>A bunch of pretty wild flowers is here.</description>
+      <extraDescr>
+        <node keyword="wild flowers">These wild flowers are really pretty.
+Just like the flowers you would wear in your hair.</node>
+      </extraDescr>
+      <extra_flags>anti_evil</extra_flags>
+      <gender>m</gender>
+      <material>plant_organism</material>
+      <name>wild flowers</name>
+      <short_descr>wild flowers</short_descr>
+      <type name="trash">
+      </type>
+      <wear_flags>take hold</wear_flags>
+      <weight>10</weight>
+    </node>
+    <node name="307">
+      <affects>
+        <node>
+          <apply to="saves">5</apply>
+        </node>
+      </affects>
+      <cost>1</cost>
+      <description>A strange looking amulet is lying here, half covered with dust.</description>
+      <extraDescr>
+        <node keyword="amulet">Judging from the signs inscripted in the amulet, you gather it must
+have belonged to a druid.  It is weird looking with symbols from nature
+dominating it.
+</node>
+      </extraDescr>
+      <extra_flags>nodrop</extra_flags>
+      <gender>m</gender>
+      <material>bronze</material>
+      <name>amulet</name>
+      <short_descr>a strange amulet</short_descr>
+      <type name="jewelry">
+      </type>
+      <wear_flags>take wear_neck</wear_flags>
+      <weight>10</weight>
+    </node>
+    <node name="308">
+      <cost>10</cost>
+      <description>A staff with druidic marks have been left here.</description>
+      <extraDescr>
+        <node keyword="staff stick">Then staff is about 5 ft long, engraved with mythical signs and figures.
+Otherwise the staff seems of no real interest.
+</node>
+      </extraDescr>
+      <gender>m</gender>
+      <material>wood</material>
+      <name>staff stick</name>
+      <short_descr>a druish staff</short_descr>
+      <type name="trash">
+      </type>
+      <wear_flags>take hold</wear_flags>
+      <weight>40</weight>
+    </node>
+    <node name="309">
+      <description>You see a deliciously looking rabbit roast.</description>
+      <extraDescr>
+        <node keyword="roast rabbit wabbit">Well the rabbit looks rather dead.
+You guess that this once was a ferocious rabbit who&apos;s life now has
+changed to that of a tasty wabbit woast.
+</node>
+      </extraDescr>
+      <gender>m</gender>
+      <material>meat</material>
+      <name>rabbit roast wabbit</name>
+      <short_descr>a rabbit roast</short_descr>
+      <type name="food">
+        <foodHours>24</foodHours>
+        <fullHours>24</fullHours>
+      </type>
+      <wear_flags>take</wear_flags>
+      <weight>50</weight>
+    </node>
+    <node name="310">
+      <cost>170</cost>
+      <description>A strange template made of an exotic green metal is placed here</description>
+      <extraDescr>
+        <node keyword="template scroll metal">The template is made of an exotic green metal and looks
+centuries old.
+Inscripted upon is the words &apos;Ep ep fi&apos;hur G&apos;harne
+                             G&apos;harne fhtagn Shudde-M&apos;ell hyas Negg&apos;h&apos;
+And beneath the inscription you see horrifying death scenes depicted.
+</node>
+      </extraDescr>
+      <gender>m</gender>
+      <level>13</level>
+      <material>vellum</material>
+      <name>template scroll</name>
+      <short_descr>a strange template</short_descr>
+      <type name="scroll">
+        <level>11</level>
+        <spell0>sleep</spell0>
+        <spell1>blindness</spell1>
+        <spell2>fireball</spell2>
+      </type>
+      <wear_flags>take hold</wear_flags>
+      <weight>10</weight>
+    </node>
+    <node name="311">
+      <cost>300</cost>
+      <description>A clear potion wrapped in leather is unnoticed placed here.</description>
+      <extraDescr>
+        <node keyword="potion clear">As you examine the potion more, you notice the oddities of this
+potion. When you look through it you notice strange things...
+The clear potion is certainly not of this world.
+</node>
+        <node keyword="leather">The leather wrapped around the potion is old and decayed, originating
+from an, to you, unknown creature.</node>
+      </extraDescr>
+      <gender>m</gender>
+      <material>glass</material>
+      <name>potion clear</name>
+      <short_descr>a clear potion</short_descr>
+      <type name="potion">
+        <level>10</level>
+        <spell0>detect evil</spell0>
+        <spell1>detect invis</spell1>
+        <spell2>detect magic</spell2>
+      </type>
+      <wear_flags>take</wear_flags>
+      <weight>20</weight>
+    </node>
+    <node name="312">
+      <cost>640</cost>
+      <description>An odd looking scroll is here.</description>
+      <extraDescr>
+        <node keyword="scroll jhyfrdow">The scroll is titled &apos;jhyfrdow&apos; and looks very old.
+As you examine it closer you notice primitive drawings of
+men doing some kind of a ritual.
+</node>
+        <node keyword="ritual men drawings">The drawing pictures people gathered round giant stone formations,
+worshipping a giant worm like creature.
+It seems they are sacrificing some of their own species.
+</node>
+      </extraDescr>
+      <gender>m</gender>
+      <level>2</level>
+      <material>vellum</material>
+      <name>scroll jhyfrdow</name>
+      <short_descr>a scroll titled &apos;jhyfrdow&apos;</short_descr>
+      <type name="scroll">
+        <level>8</level>
+        <spell0>protection evil</spell0>
+      </type>
+      <wear_flags>take</wear_flags>
+      <weight>10</weight>
+    </node>
+  </objects>
+  <rooms>
+    <node name="300">
+      <description>You are walking on a path situated in the rough plains.
+You feel the strong winds blow through your hair as you study
+the beautiful landscaping here. The path continues east, north
+and west leads to plains and you see the path towards the north
+gate of midgaard to the south.
+</description>
+      <exits>
+        <node name="east">
+          <description>You notice nothing special, except that the path in the plains continues.
+</description>
+          <target>301</target>
+        </node>
+        <node name="north">
+          <description>You see the grassy plains.
+</description>
+          <target>315</target>
+        </node>
+        <node name="south">
+          <description>Towards the south you notice the north gate of Midgaard.
+</description>
+          <target>3904</target>
+        </node>
+        <node name="west">
+          <description>You see the grassy plains.
+</description>
+          <target>316</target>
+        </node>
+      </exits>
+      <name>Path in the plains</name>
+      <sector>field</sector>
+    </node>
+    <node name="301">
+      <description>You are walking on a path situated in the rough plains.
+You feel the strong winds blow through your hair as you study
+the beautiful landscaping here. The path continues east and west.
+</description>
+      <exits>
+        <node name="east">
+          <description>You notice nothing special, except that the path in the plains continues.
+</description>
+          <target>302</target>
+        </node>
+        <node name="west">
+          <description>You notice nothing special, except that the path in the plains continues.
+</description>
+          <target>300</target>
+        </node>
+      </exits>
+      <name>Path in the plains</name>
+      <sector>field</sector>
+    </node>
+    <node name="302">
+      <description>You are walking on a path situated in the rough plains.
+You feel the strong winds blow through your hair as you study
+the beautiful landscaping here. The path continues north and west.
+</description>
+      <exits>
+        <node name="north">
+          <description>You notice nothing special, except that the path in the plains continues.
+</description>
+          <target>303</target>
+        </node>
+        <node name="south">
+          <key>0</key>
+          <target>33307</target>
+        </node>
+        <node name="west">
+          <description>You notice nothing special, except that the path in the plains continues.
+</description>
+          <target>301</target>
+        </node>
+      </exits>
+      <name>Path in the plains</name>
+      <sector>field</sector>
+    </node>
+    <node name="303">
+      <description>You are walking on a path situated in the rough plains.
+You feel the strong winds blow through your hair as you study
+the beautiful landscaping here. The path leads north and south.
+To the east and the west you have the grassy plains.
+</description>
+      <exits>
+        <node name="east">
+          <description>To the east you notice the grassy plains.
+</description>
+          <target>317</target>
+        </node>
+        <node name="north">
+          <description>You notice nothing special, except that the path in the plains continues.
+</description>
+          <target>304</target>
+        </node>
+        <node name="south">
+          <description>You notice nothing special, except that the path in the plains continues.
+</description>
+          <target>302</target>
+        </node>
+        <node name="west">
+          <description>To the west you can see more of the beautiful grassy plains.
+</description>
+          <target>315</target>
+        </node>
+      </exits>
+      <name>Path in the plains</name>
+      <sector>field</sector>
+    </node>
+    <node name="304">
+      <description>You are walking on a path situated in the rough plains.
+You feel the strong winds blow through your hair as you study
+the beautiful landscaping here. The Path leads north and south.
+</description>
+      <exits>
+        <node name="north">
+          <description>The path continues north as small foothills begins to appear.
+</description>
+          <target>305</target>
+        </node>
+        <node name="south">
+          <description>The path leads south towards the town.
+</description>
+          <target>303</target>
+        </node>
+      </exits>
+      <name>Path in the plains</name>
+      <sector>field</sector>
+    </node>
+    <node name="305">
+      <description>You are walking on a path situated in the rough plains.
+You feel the strong winds blow through your hair as you watch the
+beautiful landscaping here. To the east and west you see the grassy plains.
+The path extends into small foothills to the north and also continues south.
+</description>
+      <exits>
+        <node name="east">
+          <description>You see the grassy plains here.
+</description>
+          <target>321</target>
+        </node>
+        <node name="north">
+          <description>The path continues into the small foothills.
+</description>
+          <target>306</target>
+        </node>
+        <node name="south">
+          <description>The path continues towards Midgaard.
+</description>
+          <target>304</target>
+        </node>
+        <node name="west">
+          <description>You see the grassy plains here.
+</description>
+          <target>320</target>
+        </node>
+      </exits>
+      <name>Path in the plains</name>
+      <sector>field</sector>
+    </node>
+    <node name="306">
+      <description>You are on the path leading through the small foothills.
+The wind blow through your hair as you study the beautiful
+landscaping here. From the north you sense a certain freshness.
+The path continues east and south. You smell freshness from north.
+</description>
+      <exits>
+        <node name="east">
+          <description>The path continues towards east here.
+</description>
+          <target>307</target>
+        </node>
+        <node name="north">
+          <description>You see grassy plains and perhaps some crystal clear water.
+</description>
+          <target>326</target>
+        </node>
+        <node name="south">
+          <description>The path in the plains wind through the small foothills.
+</description>
+          <target>305</target>
+        </node>
+      </exits>
+      <name>Path in the foothills</name>
+      <sector>field</sector>
+    </node>
+    <node name="307">
+      <description>You are walking on a path situated in the small foothills.
+The winds are more than average here but it feels nice. You can follow
+the path east or west.
+</description>
+      <exits>
+        <node name="east">
+          <description>The path continues in the foothills
+</description>
+          <target>308</target>
+        </node>
+        <node name="west">
+          <description>To the west the path takes a bend southwards.
+</description>
+          <target>306</target>
+        </node>
+      </exits>
+      <name>Path in the foothills</name>
+      <sector>field</sector>
+    </node>
+    <node name="308">
+      <description>You are walking on a narrow path in the foothills.
+You feel the strong winds blow through your hair as you study
+the beautiful landscaping here. The path goes north and west.
+</description>
+      <exits>
+        <node name="north">
+          <description>The narrow path through the foothills turns left here.
+</description>
+          <target>309</target>
+        </node>
+        <node name="west">
+          <description>To the west you can see the path continues.
+</description>
+          <target>307</target>
+        </node>
+      </exits>
+      <name>Path in the foothills</name>
+      <sector>field</sector>
+    </node>
+    <node name="309">
+      <description>You are walking on a path situated in foothills.
+To the west you sense a certain freshness and the path continues
+south and east.
+</description>
+      <exits>
+        <node name="east">
+          <description>You see the path continues in the foothills.
+</description>
+          <target>310</target>
+        </node>
+        <node name="south">
+          <description>You see the path continues in the foothills.
+</description>
+          <target>308</target>
+        </node>
+        <node name="west">
+          <description>You see grassy plains and perhaps some crystal clear water.
+</description>
+          <target>326</target>
+        </node>
+      </exits>
+      <name>Path in the foothills</name>
+      <sector>field</sector>
+    </node>
+    <node name="310">
+      <description>You are walking on a long path in the east-west direction.
+The surroundings are green, vegetated foothills.
+You are able to force your way through some dense plants to the north.
+</description>
+      <exits>
+        <node name="east">
+          <description>To the east you notice that the path continues towards a T-intersection.
+</description>
+          <target>311</target>
+        </node>
+        <node name="north">
+          <description>You can&apos;t really see much through the vegetation on the foothills.
+</description>
+          <target>327</target>
+        </node>
+        <node name="west">
+          <description>You just see the path through the foothills.
+</description>
+          <target>309</target>
+        </node>
+      </exits>
+      <name>Path in the foothills</name>
+      <sector>field</sector>
+    </node>
+    <node name="311">
+      <description>You are walking on the long, narrow path through the foothills.
+To your east you see a T-intersection and to the west the path
+continues far.
+</description>
+      <exits>
+        <node name="east">
+          <description>You can go to the T-intersection this way.
+</description>
+          <target>312</target>
+        </node>
+        <node name="west">
+          <description>You can see the long path through the plains.
+</description>
+          <target>310</target>
+        </node>
+      </exits>
+      <name>Path in the foothills</name>
+      <sector>field</sector>
+    </node>
+    <node name="312">
+      <description>You are standing on an intersection between 3 paths.
+To the west you can follow a long, narrow path through the foothills.
+To the north a wide path leads to the Village of Ofcol and an
+ancient path leads towards the south.
+</description>
+      <exits>
+        <node name="east">
+          <description>The holy castle of King Arthur.
+</description>
+          <target>17301</target>
+        </node>
+        <node name="north">
+          <description>The wide road to Ofcol runs here.
+</description>
+          <target>313</target>
+        </node>
+        <node name="south">
+          <description>Here is a partially hidden, ancient looking path.
+</description>
+          <target>332</target>
+        </node>
+        <node name="west">
+          <description>You can see the long narrow path running through the foothills.
+</description>
+          <target>311</target>
+        </node>
+      </exits>
+      <name>The path intersection</name>
+      <sector>field</sector>
+    </node>
+    <node name="313">
+      <description>You are walking on a wide road with trail marks on it.  To the north
+you see the village of Ofcol and to the south there is the T intersection.
+You can enter the foothills west.  The foothills to your east are too
+steep to climb.
+</description>
+      <exits>
+        <node name="north">
+          <description>The road continues towards Ofcol.
+</description>
+          <target>314</target>
+        </node>
+        <node name="south">
+          <description>You can see the T-intersection in the souther direction.
+</description>
+          <target>312</target>
+        </node>
+        <node name="west">
+          <description>You think you can climb these foothills.
+</description>
+          <target>327</target>
+        </node>
+      </exits>
+      <name>Road to Ofcol</name>
+      <sector>field</sector>
+    </node>
+    <node name="314">
+      <description>You are standing outside the village of Ofcol.
+The village looks very small, but still a nice and safe place to stay.
+You may enter the city to the north or journey towards the
+T-intersection in the southern direction.
+</description>
+      <exits>
+        <node name="north">
+          <description>You notice a sign saying : Stranger we welcome you to the
+                           peaceful city of Ofcol.
+</description>
+          <target>5550</target>
+        </node>
+        <node name="south">
+          <description>Here you see the road go towards the intersection.
+</description>
+          <target>313</target>
+        </node>
+      </exits>
+      <name>Outside Ofcol</name>
+      <sector>field</sector>
+    </node>
+    <node name="315">
+      <description>You walk in the grassy plains. On this little hill you can see
+two gallows, with rotting human tissue hanging from the ropes.
+There is a sign here.
+</description>
+      <exits>
+        <node name="east">
+          <description>To the east you can see a small path in the plains.
+</description>
+          <target>303</target>
+        </node>
+        <node name="north">
+          <description>The plains extend far to the north.
+</description>
+          <target>320</target>
+        </node>
+        <node name="south">
+          <description>To the south you can see a small path in the plains.
+</description>
+          <target>300</target>
+        </node>
+        <node name="west">
+          <description>The plains extend far to the west.
+</description>
+          <target>318</target>
+        </node>
+      </exits>
+      <extraDescr>
+        <node keyword="sign">The sign says:
+  Loyal citizens of Midgaard.  These are the earthly remains of the
+  two heretics &apos;Dim&apos; and &apos;Gamma&apos; of this world. Having forged them-
+  selves to immortality, they called upon themselves the anger of the
+  implementators.  Let this be a lesson too all .....
+                                    -- the Powers that Be.
+</node>
+      </extraDescr>
+      <name>Gallow hill</name>
+      <sector>hills</sector>
+    </node>
+    <node name="316">
+      <description>You walk in the grassy plains among the herbs which grow here. The wind is
+strong and rough. Far to the north you can see the foothills and further on
+mountain peaks are visible.
+</description>
+      <exits>
+        <node name="east">
+          <description>When you look to the east you notice at small path.
+</description>
+          <target>300</target>
+        </node>
+        <node name="north">
+          <description>The plains extend far to the north.
+</description>
+          <target>318</target>
+        </node>
+      </exits>
+      <name>Grassy plains</name>
+      <resets>
+        <drop vnum="304"/>
+      </resets>
+      <sector>hills</sector>
+    </node>
+    <node name="317">
+      <description>You walk in the grassy plains among the herbs which grow here. The wind is
+strong and rough. Far to the north you can see the foothills and further on
+mountain peaks are visible. City of Midgaard is to the south but so are some
+VERY steep slopes.
+</description>
+      <exits>
+        <node name="east">
+          <description>The plains extend far to the east.
+</description>
+          <target>338</target>
+        </node>
+        <node name="south">
+          <description>Some VERY steep slopes prevent you from going this way, it might kill you.
+</description>
+          <target>345</target>
+        </node>
+        <node name="west">
+          <description>A small path is running through the plains.
+</description>
+          <target>303</target>
+        </node>
+      </exits>
+      <name>Grassy plains</name>
+      <sector>hills</sector>
+    </node>
+    <node name="318">
+      <description>You walk in the beautiful grassy plains. The wind is strong and rough.
+Far to the north you can see the foothills and further on mountain peaks
+are visible.
+</description>
+      <exits>
+        <node name="east">
+          <description>The plains extend far to the east.
+</description>
+          <target>315</target>
+        </node>
+        <node name="north">
+          <description>The plains extend far to the north.
+</description>
+          <target>319</target>
+        </node>
+        <node name="south">
+          <description>The plains extend far to the south.
+</description>
+          <target>316</target>
+        </node>
+      </exits>
+      <name>Grassy plains</name>
+      <resets>
+        <mob limit="10" maxHere="4" vnum="309"/>
+      </resets>
+      <sector>hills</sector>
+    </node>
+    <node name="319">
+      <description>You walk in the grassy plains among the herbs which grow here. The wind is
+strong and rough. To the north you can see the foothills and just behind
+mountain peaks are visible.
+</description>
+      <exits>
+        <node name="east">
+          <description>The plains extend far to the east.
+</description>
+          <target>320</target>
+        </node>
+        <node name="north">
+          <description>To the north, the plains extend into small foothills, behind a small hill
+you notice something ...
+</description>
+          <target>330</target>
+        </node>
+        <node name="south">
+          <description>The plains extend far to the south.
+</description>
+          <target>318</target>
+        </node>
+      </exits>
+      <name>Grassy plains</name>
+      <resets>
+        <drop vnum="301"/>
+      </resets>
+      <sector>hills</sector>
+    </node>
+    <node name="320">
+      <description>You walk in some grassy plains. The wind is strong and rough. To the
+north you can see the foothills and further on mountain peaks are visible.
+</description>
+      <exits>
+        <node name="east">
+          <description>East of here you see a winding path in the plains.
+</description>
+          <target>305</target>
+        </node>
+        <node name="north">
+          <description>The plains extend into small foothills to the north.
+</description>
+          <target>322</target>
+        </node>
+        <node name="south">
+          <description>The plains extend far to the south.
+</description>
+          <target>315</target>
+        </node>
+        <node name="west">
+          <description>The plains extend far to the west.
+</description>
+          <target>319</target>
+        </node>
+      </exits>
+      <name>Grassy plains</name>
+      <sector>hills</sector>
+    </node>
+    <node name="321">
+      <description>You walk in the grassy plains. The wind is fairly strong.
+</description>
+      <exits>
+        <node name="south">
+          <description>The plains extend far to the south.
+</description>
+          <target>338</target>
+        </node>
+        <node name="west">
+          <description>A small path is running through the plains.
+</description>
+          <target>305</target>
+        </node>
+      </exits>
+      <name>Grassy plains</name>
+      <sector>hills</sector>
+    </node>
+    <node name="322">
+      <description>You walk in the grassy foothills north of the plains. The wind is rough.
+To the north you can see foothills and just behind them mountain peaks
+are visible.
+</description>
+      <exits>
+        <node name="north">
+          <description>The small foothills extend into foothills far to the north.
+</description>
+          <target>324</target>
+        </node>
+        <node name="south">
+          <description>The small foothills extend into plains far to the south.
+</description>
+          <target>320</target>
+        </node>
+        <node name="west">
+          <description>The small foothills extend far to the west.
+</description>
+          <target>330</target>
+        </node>
+      </exits>
+      <name>Grassy foothills</name>
+      <sector>hills</sector>
+    </node>
+    <node name="323">
+      <description>You walk in the steep foothills. It is rather hard to move here.
+To the north you can see a grassy valley with wildflowers.
+</description>
+      <exits>
+        <node name="east">
+          <description>The foothills extend far to the east.
+</description>
+          <target>324</target>
+        </node>
+        <node name="north">
+          <description>You see a path toward the valley.
+</description>
+          <target>7800</target>
+        </node>
+        <node name="south">
+          <description>On the horizon you can see the City of Midgaard.
+</description>
+          <target>330</target>
+        </node>
+      </exits>
+      <name>The steep foothills</name>
+      <resets>
+        <drop vnum="304"/>
+        <mob limit="1" maxHere="1" vnum="300"/>
+        <equip to="hold" vnum="308"/>
+        <equip to="neck_1" vnum="307"/>
+        <give vnum="312"/>
+        <give vnum="302"/>
+      </resets>
+      <sector>hills</sector>
+    </node>
+    <node name="324">
+      <description>You are walking in the steep foothills. It is rather hard to move here.
+To the north you can see the mountains towering over you.  Pine trees
+grow here.
+</description>
+      <exits>
+        <node name="east">
+          <description>The foothills extend far to the east.
+</description>
+          <target>325</target>
+        </node>
+        <node name="north">
+          <description>The path continues up the mountain.
+</description>
+          <target>901</target>
+        </node>
+        <node name="south">
+          <description>The foothills extend downwards to the south. In the horizon you can
+see the City Of Midgaard.
+</description>
+          <target>322</target>
+        </node>
+        <node name="west">
+          <description>The foothills extend far to the west.
+</description>
+          <target>323</target>
+        </node>
+      </exits>
+      <extraDescr>
+        <node keyword="mountains">The mountains seems dark and all most alive, as they contrast against
+the sky.
+</node>
+        <node keyword="pine tree trees pines">The all too quiet trees suggest that something roams these woods.
+</node>
+      </extraDescr>
+      <name>The steep foothills</name>
+      <resets>
+        <mob limit="10" maxHere="4" vnum="309"/>
+      </resets>
+      <sector>hills</sector>
+    </node>
+    <node name="325">
+      <description>You are walking in the steep foothills. It is rather hard to move here.
+Further to the north you can see the mountains towering over you.
+Several pinetrees grow here.
+</description>
+      <exits>
+        <node name="east">
+          <description>The foothills extend into smaller hills far to the east.
+</description>
+          <target>326</target>
+        </node>
+        <node name="north">
+          <description>The King&apos;s Road.
+</description>
+          <target>15201</target>
+        </node>
+        <node name="west">
+          <description>The foothills extend far to the west.
+</description>
+          <target>324</target>
+        </node>
+      </exits>
+      <name>The steep foothills</name>
+      <sector>hills</sector>
+    </node>
+    <node name="326">
+      <description>You are standing by a pool in the small foothills. It is clear and cold.
+A steep slope rises up into the foothills to the north. Behind them ...
+the mountains.
+</description>
+      <exits>
+        <node name="east">
+          <description>To the east you notice a small path in the foothills.
+</description>
+          <target>309</target>
+        </node>
+        <node name="south">
+          <description>To the south a path winds its way south into the plains.
+</description>
+          <target>306</target>
+        </node>
+        <node name="west">
+          <description>The foothills extend far to the west.
+</description>
+          <target>325</target>
+        </node>
+      </exits>
+      <extraDescr>
+        <node keyword="pool">The pool is crystal clear, but as you look into it you notice that
+you can&apos;t see the bottom of it ... it must be pretty deep.
+</node>
+      </extraDescr>
+      <name>The pool in the foothills</name>
+      <sector>hills</sector>
+    </node>
+    <node name="327">
+      <description>You are walking in some foothills. It is rather hard to move here.
+Further to the north you can see the mountains towering over you.
+Several pinetrees grow here.
+</description>
+      <exits>
+        <node name="east">
+          <description>To the east you notice a small path in the foothills.
+</description>
+          <target>313</target>
+        </node>
+        <node name="south">
+          <description>To the south a steep slope runs down to a small path in the foothills.
+</description>
+          <target>310</target>
+        </node>
+      </exits>
+      <name>The foothills</name>
+      <resets>
+        <drop vnum="300"/>
+      </resets>
+      <sector>hills</sector>
+    </node>
+    <node name="330">
+      <description>You are standing in the foothills. To the west, well hidden among the small
+foothills and pines, you see a small hut. To the north you can see
+the foothills, and some pineforrest. Further on mountain peaks are visible.
+</description>
+      <exits>
+        <node name="east">
+          <description>The foothills extend far to the east.
+</description>
+          <target>322</target>
+        </node>
+        <node name="north">
+          <description>The steep foothills seems hard to climb
+</description>
+          <target>323</target>
+        </node>
+        <node name="south">
+          <description>To the south the foothills extend into plains far to the south.
+</description>
+          <target>319</target>
+        </node>
+        <node name="west">
+          <description>You see a small crumbled hut here, must be a hermit living here.
+</description>
+          <flags>isdoor</flags>
+          <keyword>door</keyword>
+          <target>331</target>
+        </node>
+      </exits>
+      <name>In front of hut in foothills</name>
+      <sector>hills</sector>
+    </node>
+    <node name="331">
+      <description>You are inside the hermit&apos;s hut. It is rather old, but serves it purpose.
+It keeps its habitant from the rough winds and dangerous beasts of the
+plains and foothills. There is a small fireplace here.
+</description>
+      <exits>
+        <node name="east">
+          <description>Through the door you can see the foothills.
+</description>
+          <flags>isdoor</flags>
+          <keyword>door</keyword>
+          <target>330</target>
+        </node>
+      </exits>
+      <extraDescr>
+        <node keyword="fireplace">The hermit cooks here.
+</node>
+      </extraDescr>
+      <flags>indoors</flags>
+      <name>Hermit&apos;s hut</name>
+      <resets>
+        <mob limit="1" maxHere="1" vnum="301"/>
+        <give vnum="303"/>
+        <drop vnum="309"/>
+      </resets>
+      <sector>inside</sector>
+    </node>
+    <node name="332">
+      <description>You are moving on an ancient path. The path is slightly covered with
+leaves and twitches.
+To the north you can see the T-crossing and the path continues south.
+</description>
+      <exits>
+        <node name="north">
+          <description>As you look to the north you see a T-intersection.
+</description>
+          <target>312</target>
+        </node>
+        <node name="south">
+          <description>The ancient path continues through the plains.
+</description>
+          <target>333</target>
+        </node>
+        <node name="up">
+          <description>An Ancient Path through the Dark Forest.
+</description>
+          <target>2400</target>
+        </node>
+      </exits>
+      <name>The ancient path</name>
+      <sector>forest</sector>
+    </node>
+    <node name="333">
+      <description>You are standing on the ancient path which runs north and south.
+The path is hardly visible here.
+</description>
+      <exits>
+        <node name="north">
+          <description>You see the ancient path.
+</description>
+          <target>332</target>
+        </node>
+        <node name="south">
+          <description>You trace the path carefully and see no immediate dangers.
+</description>
+          <target>334</target>
+        </node>
+      </exits>
+      <name>The ancient path</name>
+      <sector>forest</sector>
+    </node>
+    <node name="334">
+      <description>You are standing on the ancient path which runs north and south.
+The path is hardly visible here.
+</description>
+      <exits>
+        <node name="north">
+          <description>You see the ancient path.
+</description>
+          <target>333</target>
+        </node>
+        <node name="south">
+          <description>You trace the path carefully and see no immediate dangers.
+</description>
+          <target>335</target>
+        </node>
+      </exits>
+      <name>The ancient path</name>
+      <resets>
+        <mob limit="10" maxHere="4" vnum="309"/>
+      </resets>
+      <sector>forest</sector>
+    </node>
+    <node name="335">
+      <description>The path runs north and east from here.  You notice some markers placed
+along the side of the path.
+</description>
+      <exits>
+        <node name="east">
+          <description>Further ahead you see a bridge over a small creak.
+</description>
+          <target>336</target>
+        </node>
+        <node name="north">
+          <description>You see the ancient path winding its way north from here. Looks safe.
+</description>
+          <target>334</target>
+        </node>
+        <node name="west">
+          <description>The jungle</description>
+          <target>17171</target>
+        </node>
+      </exits>
+      <extraDescr>
+        <node keyword="markers">The markers seems like normal stones, but the way they are
+arranged makes you think there is something special about them.
+</node>
+      </extraDescr>
+      <name>The ancient path</name>
+      <sector>forest</sector>
+    </node>
+    <node name="336">
+      <description>You have stepped upon a wooden bridge. It looks old but safe to cross.
+It is made of a wood you haven&apos;t seen before.
+</description>
+      <exits>
+        <node name="east">
+          <description>The path continues, further ahead you notice some rock formations.
+</description>
+          <target>337</target>
+        </node>
+        <node name="west">
+          <description>The ancient path leads west and turns north further ahead.
+</description>
+          <target>335</target>
+        </node>
+      </exits>
+      <extraDescr>
+        <node keyword="rock formation formations">The rock formations are made of 7 huge, monolith like stones, placed
+in a symbolic circle.
+You notice it&apos;s possible to enter the ring.
+</node>
+      </extraDescr>
+      <name>The wooden bridge</name>
+      <sector>field</sector>
+    </node>
+    <node name="337">
+      <description>You find yourself located between the bridge and the rock formations.
+As you approach the formations you begin to realize the true size of
+them, about 15 feet tall and almost perfect rectangular shape.
+You feel impressed with the awesome sight.
+</description>
+      <exits>
+        <node name="east">
+          <description>To the east you enter the ring of stones. You wonder if it&apos;s safe.
+</description>
+          <target>339</target>
+        </node>
+        <node name="west">
+          <description>To the west the ancient path leads across the wooden bridge.
+</description>
+          <target>336</target>
+        </node>
+      </exits>
+      <extraDescr>
+        <node keyword="rock formation formations">The rock formations are made of seven huge monolith placed in a circle.
+You notice it&apos;s possible to enter the ring.
+</node>
+      </extraDescr>
+      <name>The ancient path</name>
+      <sector>forest</sector>
+    </node>
+    <node name="338">
+      <description>You walk in the grassy plains among the herbs which grow here. The wind is
+strong and rough. Far to the north you can see the foothills and further on
+mountain peaks are visible.
+</description>
+      <exits>
+        <node name="down">
+          <target>8855</target>
+        </node>
+        <node name="north">
+          <description>The plains extend far to the north.
+</description>
+          <target>321</target>
+        </node>
+        <node name="west">
+          <description>The plains extend far to the east.
+</description>
+          <target>317</target>
+        </node>
+      </exits>
+      <name>Grassy plains</name>
+      <resets>
+        <drop vnum="304"/>
+      </resets>
+      <sector>hills</sector>
+    </node>
+    <node name="339">
+      <description>You are in the center of 7, 15 ft tall monolith like black stones.
+In the center of the ring formed by the monolith you can&apos;t help
+noticing a big sacrifice altar. The ground is covered with dirt, but the
+altar shows no sign of such. West of here is the ancient path.
+</description>
+      <exits>
+        <node name="down">
+          <description>You see a tunnel down there.
+</description>
+          <target>340</target>
+        </node>
+        <node name="west">
+          <description>You see the ancient path and the wooden bridge here.
+</description>
+          <target>337</target>
+        </node>
+      </exits>
+      <extraDescr>
+        <node keyword="stones g'harne monolith">The stones of G&apos;harne tower fifteen feet over you.
+The giant stones are made of a material you haven&apos;t seen before.
+It resembles black marble, but somehow feels different.
+</node>
+        <node keyword="altar sacrifice">You move closer to examine the sacrifice altar of G&apos;harne.
+The altar is about 3 feet high, 10 feet long and 4 feet wide.
+It has engraved pictures of death rituals and horrifying worms.
+</node>
+        <node keyword="death rituals worms engraving picture">The pictures are depicting evil rituals.
+You see druids pouring blood over herbs on an altar like this one.
+There are people calling giant worms into existence with dark spells.
+</node>
+      </extraDescr>
+      <name>The Stones of G&apos;harne</name>
+      <sector>field</sector>
+    </node>
+    <node name="340">
+      <description>You are standing in a gloomy tunnel leading south and west, right under
+the altar of G&apos;harne.  The walls are covered with a smelly slime and small
+rotting pieces of a meat like substance, fills the air with an unbearable
+stench.  You might be able to force your way up into fresh air from here.
+</description>
+      <exits>
+        <node name="south">
+          <target>341</target>
+        </node>
+        <node name="up">
+          <description>You welcome the sight of fresh air.
+</description>
+          <target>339</target>
+        </node>
+        <node name="west">
+          <target>342</target>
+        </node>
+      </exits>
+      <extraDescr>
+        <node keyword="meat rotting slime substance">You try to examine the substance closer, but must refrain from this
+as all you really want to do is puke.
+You puke.
+</node>
+      </extraDescr>
+      <flags>dark indoors</flags>
+      <name>Dark smelly tunnels</name>
+      <sector>inside</sector>
+    </node>
+    <node name="341">
+      <description>The tunnel comes to an abrupt end here. It simply looks like it
+hasn&apos;t been excavated further.  North of here the tunnel makes a turn east.
+</description>
+      <exits>
+        <node name="north">
+          <target>340</target>
+        </node>
+      </exits>
+      <flags>dark indoors</flags>
+      <name>Dead end of tunnel</name>
+      <sector>inside</sector>
+    </node>
+    <node name="342">
+      <description>You are standing in a gloomy tunnel leading east and west.
+The walls are covered with a smelly slime and small rotting pieces of a
+meat like substance, fills the air with an unbearable stench.
+</description>
+      <exits>
+        <node name="east">
+          <description>The tunnel continues in this direction.
+</description>
+          <target>340</target>
+        </node>
+        <node name="west">
+          <description>The tunnel continues in this direction.
+</description>
+          <target>343</target>
+        </node>
+      </exits>
+      <extraDescr>
+        <node keyword="meat rotting slime substance">You try to examine the substance closer, but must refrain from this
+as all you really want to do is puke.
+You puke.
+</node>
+      </extraDescr>
+      <flags>dark indoors</flags>
+      <name>Dark smelly tunnels</name>
+      <sector>inside</sector>
+    </node>
+    <node name="343">
+      <description>You are standing in a small smelly tunnel under the plains.
+The smell is growing stronger to the west, so is the density of the
+slime and other undeterminable substances ...
+</description>
+      <exits>
+        <node name="east">
+          <description>The unbearable stench is less intensive in this direction.
+</description>
+          <target>342</target>
+        </node>
+        <node name="west">
+          <description>The tunnel seems to extend into some kind of cave.
+</description>
+          <target>344</target>
+        </node>
+      </exits>
+      <extraDescr>
+        <node keyword="slime substance">BWADR! ...
+</node>
+      </extraDescr>
+      <name>Dark smelly tunnels</name>
+      <sector>inside</sector>
+    </node>
+    <node name="344">
+      <description>You stand in the hall of G&apos;harne. The walls are dressed with strange
+carving, symbolizing human sacrifice and people worshipping giant worms.
+Disgusting slime and gore are also very dominant in your view of this room.
+</description>
+      <exits>
+        <node name="east">
+          <description>It looks like a good idea just to run in this direction.
+</description>
+          <target>343</target>
+        </node>
+      </exits>
+      <extraDescr>
+        <node keyword="slime gore">You puke.
+</node>
+      </extraDescr>
+      <flags>dark indoors</flags>
+      <name>The Hall of G&apos;harne</name>
+      <resets>
+        <mob limit="1" maxHere="1" vnum="305"/>
+        <give vnum="310"/>
+        <give vnum="311"/>
+      </resets>
+      <sector>inside</sector>
+    </node>
+    <node name="345">
+      <description>You try to climb down the slope.
+&gt;
+You slip!
+You fall and tumble.
+You hit your head HARD.
+You die.
+You&apos;ve fallen, and you can&apos;t get up!
+</description>
+      <flags>no_mob</flags>
+      <name>Steep slope</name>
+      <sector>field</sector>
+    </node>
+  </rooms>
+</area>
