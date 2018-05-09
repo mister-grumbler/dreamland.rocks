@@ -2,13 +2,14 @@
 <area>
   <areadata>
     <authors>Copper</authors>
-    <credits>Plains of the North</credits>
+    <credits>Равнины Севера</credits>
     <levelHigh>20</levelHigh>
     <levelLow>1</levelLow>
-    <name>Plains</name>
+    <name>Равнины Севера</name>
     <security>9</security>
     <vnumHigh>399</vnumHigh>
     <vnumLow>300</vnumLow>
+    <translator>Zustin</translator>
     <speedwalk>4e3n2wn</speedwalk>
   </areadata>
   <mobiles>
@@ -19,22 +20,22 @@
       <dam_type>none</dam_type>
       <damage>2d5+3</damage>
       <default_pos>stand</default_pos>
-      <description>Aruncus is a tall, skinny druid with a face marked by nature.
-He seems to be in peace with himself and his surroundings.
+      <description>Аранкус высокий, худощавый друид с конопатым лицом.
+Кажется что он абсолютно спокоен и полон благожелательности к окружающим.
 </description>
       <detection add="invis"/>
       <hit>2d10+170</hit>
       <level>13</level>
-      <long_descr>Aruncus the Druid is walking around here, searching for herbs.
+      <long_descr>Друид Аранкус (Aruncus) прогуливается здесь в поисках трав.
 </long_descr>
       <mana>6d9+100</mana>
       <material>0</material>
       <off add="disarm dodge trip assist_vnum"/>
-      <player_name>druid Aruncus</player_name>
+      <player_name>druid Aruncus друид аранкус</player_name>
       <practicer>nature</practicer>
       <race>human</race>
       <sex>male</sex>
-      <short_descr>Aruncus the Druid</short_descr>
+      <short_descr>Друид||а|у|а|ом|е Аранкус||а|у|а|ом|е</short_descr>
       <size>medium</size>
       <start_pos>stand</start_pos>
       <wealth>25</wealth>
@@ -45,21 +46,21 @@ He seems to be in peace with himself and his surroundings.
       <dam_type>none</dam_type>
       <damage>1d5+1</damage>
       <default_pos>sit</default_pos>
-      <description>Sorbus bares the marks of a long, hard life in solitude.
-He is dressed in simple clothing and looks like he has little
-or nothing to say.
+      <description>Сорбус избрал не лёгкий путь и уже много лет переносит тяготы и лишения
+жизни в одиночестве. Он одет в простую одежду и по его виду можно сразу
+сказать, что он абсолютно не расположен к общению.
 </description>
       <hit>2d7+46</hit>
       <level>4</level>
-      <long_descr>Sorbus the Hermit is sitting here, roasting a rabbit.
+      <long_descr>Отшельник Сорбус (Sorbus) жарит кролика сидя у огня.
 </long_descr>
       <mana>2d9+100</mana>
       <material>0</material>
       <off add="disarm dodge trip assist_vnum"/>
-      <player_name>hermit sorbus</player_name>
+      <player_name>hermit sorbus сорбус отшельник</player_name>
       <race>human</race>
       <sex>male</sex>
-      <short_descr>Sorbus the Hermit</short_descr>
+      <short_descr>Отшельник||а|у|а|ом|е Сорбус||а|у|а|ом|е</short_descr>
       <size>medium</size>
       <start_pos>sit</start_pos>
     </node>
@@ -69,20 +70,21 @@ or nothing to say.
       <dam_type>none</dam_type>
       <damage>1d7+1</damage>
       <default_pos>stand</default_pos>
-      <description>He seems like a nice person with no interest in harming you or others.
-He wears normal, light clothing and has an anonymous face.
+      <description>Он выглядит как добропорядочный горожанин, который не заинтересован в том,
+чтобы нанести вред вам или кому-нибудь ещё. У него обычная, лёгкая одежда
+и ничем не примечательное лицо.
 </description>
       <hit>2d7+71</hit>
       <level>6</level>
-      <long_descr>There is a citizen of Ofcol here glaring at you ... stranger!
+      <long_descr>Это горожанин (citizen) Офкола и он глянул на вас как на ... незнакомца!
 </long_descr>
       <mana>3d9+100</mana>
       <material>0</material>
       <off add="disarm dodge trip assist_vnum"/>
-      <player_name>citizen</player_name>
+      <player_name>citizen горожанин</player_name>
       <race>human</race>
       <sex>male</sex>
-      <short_descr>the citizen</short_descr>
+      <short_descr>Горожанин||а|у|а|ом|е</short_descr>
       <size>medium</size>
       <start_pos>stand</start_pos>
       <wealth>10</wealth>
@@ -93,20 +95,21 @@ He wears normal, light clothing and has an anonymous face.
       <dam_type>none</dam_type>
       <damage>1d6+1</damage>
       <default_pos>stand</default_pos>
-      <description>She seems like a nice person with no interest in harming you or others.
-She wears a minimum of clothing and has big ... eyes.
+      <description>Она выглядит как добропорядочная горожанка, которая не заинтересована в
+том, чтобы нанести вред вам или кому-нибудь ещё. Она носит минимум одежды
+и ты замечаешь, что у неё очень большие ... глаза.
 </description>
       <hit>2d6+60</hit>
       <level>5</level>
-      <long_descr>There is a citizen of Ofcol here glaring at you ... stranger!
+      <long_descr>Это горожанка (citizen) Офкола и она глянула на вас как на ... незнакомца!
 </long_descr>
       <mana>2d9+100</mana>
       <material>0</material>
       <off add="disarm dodge trip assist_vnum"/>
-      <player_name>citizen</player_name>
+      <player_name>citizen горожанка</player_name>
       <race>human</race>
       <sex>female</sex>
-      <short_descr>the citizen</short_descr>
+      <short_descr>Горожанк|а|и|е|у|ой|е</short_descr>
       <size>medium</size>
       <start_pos>stand</start_pos>
       <wealth>5</wealth>
@@ -118,22 +121,22 @@ She wears a minimum of clothing and has big ... eyes.
       <dam_type>none</dam_type>
       <damage>2d10+6</damage>
       <default_pos>stand</default_pos>
-      <description>Shudde-M&apos;ell is about 15 ft long and is surrounded by an evil stench,
-The worm is the protector of the treasure of G&apos;harne and has been so
-for as long anyone can remember.
+      <description>Шудде-М&apos;эл имеет длину около пяти метров и от него нестерпимо разит какой-то
+гадостью. Этот огромный червь так давно стережет сокровища Г&apos;арна, что даже
+старожилы не могут сказать кто же был сторожем до него.
 </description>
       <detection add="invis"/>
       <hit>5d10+500</hit>
       <level>24</level>
-      <long_descr>Shudde-M&apos;ell the Giant worm of G&apos;harne is guarding his treasure.
+      <long_descr>Шудде-М&apos;эл огромный, зловонный червь (worm) стерегущий сокровища Г&apos;арна.
 </long_descr>
       <mana>12d9+100</mana>
       <material>0</material>
       <off add="disarm trip assist_vnum"/>
-      <player_name>worm Shudde-M&apos;ell</player_name>
+      <player_name>worm Shudde-M&apos;ell червь шудде-м&apos;эл</player_name>
       <race>worm</race>
       <sex>male</sex>
-      <short_descr>Shudde-M&apos;ell</short_descr>
+      <short_descr>Шудде-М&apos;эл||а|у|а|ом|е</short_descr>
       <size>medium</size>
       <start_pos>stand</start_pos>
       <wealth>683</wealth>
@@ -152,22 +155,21 @@ for as long anyone can remember.
       <dam_type>none</dam_type>
       <damage>3d6+6</damage>
       <default_pos>stand</default_pos>
-      <description>Luxan is dressed in a strange jacket.
-He looks like a mean trader from the outskirts of Midgaard.
-His life is seems to be totally occupied with trading.
-He looks very fit and capable of protecting his goods.
+      <description>Люксан одет в необычную куртку и выглядит как торгаш средней руки с окраин
+Мидгаарда. Похоже, что всю свою жизнь он посвятил торговле. Ещё видно, что
+он регулярно тренируется и готов дать отпор грабителям.
 </description>
       <hit>5d10+450</hit>
       <level>23</level>
-      <long_descr>Luxan the Shopkeeper is here, eager to sell you anything.
+      <long_descr>Лавочник Люксан (luxan) стоит здесь, желая впарить вам хоть что-нибудь.
 </long_descr>
       <mana>11d9+100</mana>
       <material>0</material>
       <off add="disarm dodge trip assist_vnum"/>
-      <player_name>luxan shopkeeper</player_name>
+      <player_name>luxan shopkeeper люксан</player_name>
       <race>human</race>
       <sex>male</sex>
-      <short_descr>Luxan</short_descr>
+      <short_descr>Люксан||а|у|а|ом|е</short_descr>
       <size>medium</size>
       <start_pos>stand</start_pos>
       <wealth>400</wealth>
@@ -186,20 +188,20 @@ He looks very fit and capable of protecting his goods.
       <dam_type>none</dam_type>
       <damage>3d6+6</damage>
       <default_pos>stand</default_pos>
-      <description>The Innkeeper looks skilled in brewing different beers and mixing the
-wierdest drinks known. He also looks very big.
+      <description>Трактирщик выглядит как большой любитель пива и всевозможных коктейлей. И
+ещё он нереально здоровый, по местным меркам, мужик.
 </description>
       <hit>5d10+450</hit>
       <level>23</level>
-      <long_descr>An Innkeeper is here waiting for your order.
+      <long_descr>Трактирщик (keeper), скучая, ждёт вашего заказа.
 </long_descr>
       <mana>11d9+100</mana>
       <material>0</material>
       <off add="disarm dodge trip assist_vnum"/>
-      <player_name>keeper innkeeper</player_name>
+      <player_name>keeper innkeeper трактирщик</player_name>
       <race>human</race>
       <sex>male</sex>
-      <short_descr>the Innkeeper</short_descr>
+      <short_descr>Трактирщик||а|у|а|ом|е</short_descr>
       <size>medium</size>
       <start_pos>stand</start_pos>
       <wealth>5</wealth>
@@ -210,11 +212,11 @@ wierdest drinks known. He also looks very big.
       <dam_type>none</dam_type>
       <damage>1d4+0</damage>
       <default_pos>stand</default_pos>
-      <description>It is a small, furry creature with long ears and big feet.
+      <description>Маленькое, пушистое существо с длинными ушами и большими лапами.
 </description>
       <hit>2d6+10</hit>
       <level>1</level>
-      <long_descr>A cute rabbit is here.
+      <long_descr>Милый, маленький кролик (rabbit) мирно грызёт травку здесь.
 </long_descr>
       <mana>0d9+100</mana>
       <material>0</material>
@@ -222,7 +224,7 @@ wierdest drinks known. He also looks very big.
       <player_name>rabbit</player_name>
       <race>rabbit</race>
       <sex>either</sex>
-      <short_descr>the cute rabbit</short_descr>
+      <short_descr>Мил|ый|ого|ому|ого|ым|ом кролик||а|у|а|ом|е</short_descr>
       <size>medium</size>
       <start_pos>stand</start_pos>
     </node>
@@ -234,22 +236,21 @@ wierdest drinks known. He also looks very big.
       <dam_type>none</dam_type>
       <damage>1d8+1</damage>
       <default_pos>stand</default_pos>
-      <description>Ravan&apos;s pet dragon is about 3 ft. tall with small pointy teeth.
-The small wings are eagerly trying to lift her from the ground,
-but so far they haven&apos;t succeeded.
+      <description>Домашняя дракоша Равана ростом почти метр с небольшими, но острыми зубами.
+Своими маленькими крыльями она безуспешно пытается оторвать себя от земли.
 </description>
       <detection add="invis"/>
       <hit>2d6+110</hit>
       <level>10</level>
-      <long_descr>Ravan&apos;s pet dragon is bouncing around here flapping her cute wings.
+      <long_descr>Домашняя дракоша (dragon) Равана подпрыгивает хлопая своими милыми крыльями.
 </long_descr>
       <mana>10d9+100</mana>
       <material>0</material>
       <off add="dodge assist_race"/>
-      <player_name>dragon pet</player_name>
+      <player_name>dragon pet дракоша</player_name>
       <race>dragon</race>
       <sex>female</sex>
-      <short_descr>the pet dragon</short_descr>
+      <short_descr>Домашн|яя|ей|ей|юю|ей|ей дракош|а|и|е|у|ей|е</short_descr>
       <size>medium</size>
       <start_pos>stand</start_pos>
     </node>
