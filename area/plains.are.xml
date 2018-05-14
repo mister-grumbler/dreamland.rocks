@@ -258,15 +258,16 @@
   <objects>
     <node name="300">
       <cost>10</cost>
-      <description>Some herbs are lying here, small green leaves and tiny pink flowers.</description>
+      <description>Немного тимьяна (timian) растёт здесь. Его стебель с маленькими зелёными
+листьями и крошечными розовыми цветами.</description>
       <extraDescr>
-        <node keyword="herbs herb timian">This herb smells rather spicy; maybe you should try it?
+        <node keyword="herbs herb timian тимьян">Эта трава источает пряный аромат, может попробуешь её на вкус?
 </node>
       </extraDescr>
       <gender>m</gender>
       <material>plant_organism</material>
-      <name>herbs herb timian</name>
-      <short_descr>a small dusk of timian herbs</short_descr>
+      <name>herbs herb timian тимьян</name>
+      <short_descr>рост|ок|ка|ку|ок|ком|ке тимьяна</short_descr>
       <type name="food">
         <foodHours>1</foodHours>
         <fullHours>1</fullHours>
@@ -276,16 +277,16 @@
     </node>
     <node name="301">
       <cost>10</cost>
-      <description>Some black gyvel is lying here, dark green with black leaves and tiny
-blood red flowers.</description>
+      <description>Немного чёрного ракитника (gyvel) растёт здесь, темно-зеленый стебель с
+чёрными листьями и крошечными кроваво-красными цветами.</description>
       <extraDescr>
-        <node keyword="herbs herb gyvel">This herb smells rather special, but is it poisonous?
+        <node keyword="herbs herb gyvel ракитник">Эта трава имеет какой-то особый запах, быть может она ядовита?
 </node>
       </extraDescr>
       <gender>m</gender>
       <material>food</material>
-      <name>herbs herb gyvel</name>
-      <short_descr>a small dusk of black gyvel</short_descr>
+      <name>herbs herb gyvel ракитник</name>
+      <short_descr>рост|ок|ка|ку|ок|ком|ке чёрного ракитника</short_descr>
       <type name="food">
         <foodHours>1</foodHours>
         <fullHours>1</fullHours>
@@ -294,15 +295,17 @@ blood red flowers.</description>
       <weight>10</weight>
     </node>
     <node name="302">
-      <description>Some poison ivy is growing here.</description>
+      <description>Здесь растет ядовитый плющ (ivy). Хорошо что он ещё маленький и поэтому никому
+не доставляет хлопот.</description>
       <extraDescr>
-        <node keyword="plant ivy">This plant has dark green juicy leaves.
-You notice some small white thorns on it.</node>
+        <node keyword="plant ivy плющ">У этого растения сочные темно-зеленые листья. Вы замечаете на его стебле
+маленькие белые шипы.
+</node>
       </extraDescr>
       <gender>m</gender>
       <material>plant_organism</material>
-      <name>plant ivy</name>
-      <short_descr>a small dusk of poison ivy</short_descr>
+      <name>plant ivy плющ</name>
+      <short_descr>рост|ок|ка|ку|ок|ком|ке ядовитого плюща</short_descr>
       <type name="food">
         <foodHours>1</foodHours>
         <fullHours>1</fullHours>
@@ -313,16 +316,15 @@ You notice some small white thorns on it.</node>
     </node>
     <node name="303">
       <cost>20</cost>
-      <description>A small jar in a dark, red colour.</description>
+      <description>Небольшой кувшин (jar) тёмно-красного цвета.</description>
       <extraDescr>
-        <node keyword="blood jar">The jar is made of dry clay, covered with markings suggesting its
-occult origin.
+        <node keyword="blood jar кувшин">Тёмно-красный глиняный сосуд покрыт отметками оккультного происхождения.
 </node>
       </extraDescr>
       <gender>m</gender>
       <material>glass</material>
-      <name>blood jar</name>
-      <short_descr>a dark red jar</short_descr>
+      <name>blood jar кувшин</name>
+      <short_descr>тёмно-красн|ый|ого|ому|ый|ым|ом| кувшин||а|у||ом|е|</short_descr>
       <type name="drink">
         <left>2</left>
         <liquid>blood</liquid>
@@ -332,16 +334,16 @@ occult origin.
       <weight>20</weight>
     </node>
     <node name="304">
-      <description>A bunch of pretty wild flowers is here.</description>
+      <description>Пучёк прелестных полевых цветов (flowers) вырос здесь.</description>
       <extraDescr>
-        <node keyword="wild flowers">These wild flowers are really pretty.
-Just like the flowers you would wear in your hair.</node>
+        <node keyword="wild flowers цветы">Эти цветы действительно прелестны. Их вплетают себе в волосы местные девушки.
+</node>
       </extraDescr>
       <extra_flags>anti_evil</extra_flags>
       <gender>m</gender>
       <material>plant_organism</material>
-      <name>wild flowers</name>
-      <short_descr>wild flowers</short_descr>
+      <name>wild flowers цветы</name>
+      <short_descr>полевы|е|х|м|е|ми|х| цвет|ы|ов|ам|ы|ами|ах|</short_descr>
       <type name="trash">
       </type>
       <wear_flags>take hold</wear_flags>
@@ -354,18 +356,18 @@ Just like the flowers you would wear in your hair.</node>
         </node>
       </affects>
       <cost>1</cost>
-      <description>A strange looking amulet is lying here, half covered with dust.</description>
+      <description>Странный амулет (amulet) покрытый слоем пыли лежит здесь.</description>
       <extraDescr>
-        <node keyword="amulet">Judging from the signs inscripted in the amulet, you gather it must
-have belonged to a druid.  It is weird looking with symbols from nature
-dominating it.
+        <node keyword="amulet амулет">
+Судя по знакам изображенным на амулете, он принадлежал друиду. Амулет
+выглядит странно из-за обилия символов обозначающих силы природы.
 </node>
       </extraDescr>
       <extra_flags>nodrop</extra_flags>
       <gender>m</gender>
       <material>bronze</material>
-      <name>amulet</name>
-      <short_descr>a strange amulet</short_descr>
+      <name>amulet амулет</name>
+      <short_descr>странн|ый|ого|ому|ый|ым|ом| амулет||а|у||ом|е|</short_descr>
       <type name="jewelry">
       </type>
       <wear_flags>take wear_neck</wear_flags>
@@ -373,33 +375,33 @@ dominating it.
     </node>
     <node name="308">
       <cost>10</cost>
-      <description>A staff with druidic marks have been left here.</description>
+      <description>Деревянный посох (staff) со знаками друидов оставлен кем-то здесь.</description>
       <extraDescr>
-        <node keyword="staff stick">Then staff is about 5 ft long, engraved with mythical signs and figures.
-Otherwise the staff seems of no real interest.
+        <node keyword="staff stick посох">Посох примерно полтора метра длинной с вырезаными мистическими символами
+и фигурами. Если бы не эта резьба, то он был бы простой палкой.
 </node>
       </extraDescr>
       <gender>m</gender>
       <material>wood</material>
-      <name>staff stick</name>
-      <short_descr>a druish staff</short_descr>
+      <name>staff stick посох</name>
+      <short_descr>посох||а|у||ом|е| друидов</short_descr>
       <type name="trash">
       </type>
       <wear_flags>take hold</wear_flags>
       <weight>40</weight>
     </node>
     <node name="309">
-      <description>You see a deliciously looking rabbit roast.</description>
+      <description>Идеально пожареный кролик (roast) приковывает к себе ваш взгляд.</description>
       <extraDescr>
-        <node keyword="roast rabbit wabbit">Well the rabbit looks rather dead.
-You guess that this once was a ferocious rabbit who&apos;s life now has
-changed to that of a tasty wabbit woast.
+        <node keyword="roast rabbit кролик">Дааа... Кролик точно уже никуда не убежит. Ты задумался, а ведь когда-то
+он был свирепым кролём отбивавшим самок у конкурентов во всей округе.
+Теперь же он стал превосходным блюдом. Такой вот поворот судьбы.
 </node>
       </extraDescr>
       <gender>m</gender>
       <material>meat</material>
-      <name>rabbit roast wabbit</name>
-      <short_descr>a rabbit roast</short_descr>
+      <name>rabbit roast кролик</name>
+      <short_descr>жарен|ый|ого|ому|ого|ым|ом| кролик||а|у|а|ом|е|</short_descr>
       <type name="food">
         <foodHours>24</foodHours>
         <fullHours>24</fullHours>
@@ -409,20 +411,19 @@ changed to that of a tasty wabbit woast.
     </node>
     <node name="310">
       <cost>170</cost>
-      <description>A strange template made of an exotic green metal is placed here</description>
+      <description>Старинная гравюра (scroll) создана из экзотического зелёного сплава.</description>
       <extraDescr>
-        <node keyword="template scroll metal">The template is made of an exotic green metal and looks
-centuries old.
-Inscripted upon is the words &apos;Ep ep fi&apos;hur G&apos;harne
-                             G&apos;harne fhtagn Shudde-M&apos;ell hyas Negg&apos;h&apos;
-And beneath the inscription you see horrifying death scenes depicted.
+        <node keyword="template scroll metal гравюра">Гравюра изготовлена из экзотического зелёного сплава и выглядит как артифакт
+времён сотворения мира. На ней выгравированы какие-то слова:
+&apos;Ep ep fi&apos;hur G&apos;harne G&apos;harne fhtagn Shudde-M&apos;ell hyas Negg&apos;h&apos;
+А под ними изображены сцены наполненые ужасающей предсмертной агонией.
 </node>
       </extraDescr>
       <gender>m</gender>
       <level>13</level>
       <material>vellum</material>
-      <name>template scroll</name>
-      <short_descr>a strange template</short_descr>
+      <name>template scroll гравюра</name>
+      <short_descr>странн|ая|ой|ой|ую|ой|ой| гравюр|а|ы|е|у|ой|е|</short_descr>
       <type name="scroll">
         <level>11</level>
         <spell0>sleep</spell0>
@@ -434,19 +435,21 @@ And beneath the inscription you see horrifying death scenes depicted.
     </node>
     <node name="311">
       <cost>300</cost>
-      <description>A clear potion wrapped in leather is unnoticed placed here.</description>
+      <description>Прозрачное зелье (potion), завёрнутое в кожу, припрятано кем-то здесь.</description>
       <extraDescr>
-        <node keyword="potion clear">As you examine the potion more, you notice the oddities of this
-potion. When you look through it you notice strange things...
-The clear potion is certainly not of this world.
+        <node keyword="potion clear зелье прозрачное">
+С первого взгляда ты замечаешь, что зелье очень необычное. И внимательно
+посмотрев на него ты осознаешь, что оно точно не из этого мира.
 </node>
-        <node keyword="leather">The leather wrapped around the potion is old and decayed, originating
-from an, to you, unknown creature.</node>
+        <node keyword="leather кожа">
+Кожа, в которую завёрнуто зелье, очень старая и имеет странную фактуру.
+Ты не можешь понять с какого существа она.
+</node>
       </extraDescr>
       <gender>m</gender>
       <material>glass</material>
-      <name>potion clear</name>
-      <short_descr>a clear potion</short_descr>
+      <name>potion clear зелье прозрачное</name>
+      <short_descr>прозрачн|ое|ого|ому|ое|ым|ом| зель|е|я|ю|е|ем|е|</short_descr>
       <type name="potion">
         <level>10</level>
         <spell0>detect evil</spell0>
@@ -458,22 +461,21 @@ from an, to you, unknown creature.</node>
     </node>
     <node name="312">
       <cost>640</cost>
-      <description>An odd looking scroll is here.</description>
+      <description>Старинный свиток (scroll) лежит здесь.</description>
       <extraDescr>
-        <node keyword="scroll jhyfrdow">The scroll is titled &apos;jhyfrdow&apos; and looks very old.
-As you examine it closer you notice primitive drawings of
-men doing some kind of a ritual.
+        <node keyword="scroll jhyfrdow свиток">Свиток называется &apos;jhyfrdow&apos; и выглядит очень древним. Разглядывая его ты
+замечаешь примитивные изображения человека исполняющего ритуал (ritual).
 </node>
-        <node keyword="ritual men drawings">The drawing pictures people gathered round giant stone formations,
-worshipping a giant worm like creature.
-It seems they are sacrificing some of their own species.
+        <node keyword="ritual men drawings ритуал">Здесь изображены люди собравшиеся около гигантских нагромождений камня для
+поклонения червеподобному созданию. Похоже они приносят в жертву кого-то
+из своих сородичей.
 </node>
       </extraDescr>
       <gender>m</gender>
       <level>2</level>
       <material>vellum</material>
-      <name>scroll jhyfrdow</name>
-      <short_descr>a scroll titled &apos;jhyfrdow&apos;</short_descr>
+      <name>scroll jhyfrdow свиток</name>
+      <short_descr>свит|ок|ка|ку|ок|ком|ке| &apos;jhyfrdow&apos;</short_descr>
       <type name="scroll">
         <level>8</level>
         <spell0>protection evil</spell0>
