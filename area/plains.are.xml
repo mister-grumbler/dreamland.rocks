@@ -486,65 +486,78 @@
   </objects>
   <rooms>
     <node name="300">
-      <description>You are walking on a path situated in the rough plains.
-You feel the strong winds blow through your hair as you study
-the beautiful landscaping here. The path continues east, north
-and west leads to plains and you see the path towards the north
-gate of midgaard to the south.
+      <description>
+Ты находишься на дороге проложеной средь холмистых равнин. Осматривая
+бескрайние просторы ты чувствуешь как сильные порывы ветра колышат волосы.
+От этого перекрёстка пути расходятся на запад, север и восток. К югу видны
+северные врата Мидгаарда. На обочине установлен путевой камень (roadstone)
+наверно путешественикам там есть что почитать.
 </description>
       <exits>
         <node name="east">
-          <description>You notice nothing special, except that the path in the plains continues.
+          <description>Ничего необычного, дорога уходит ещё дальше по равнинам.
 </description>
           <target>301</target>
         </node>
         <node name="north">
-          <description>You see the grassy plains.
+          <description>Ты видиш равнины укрытые различными травами.
 </description>
           <target>315</target>
         </node>
         <node name="south">
-          <description>Towards the south you notice the north gate of Midgaard.
+          <description>Ты видишь северный вход в Мидгаард.
 </description>
           <target>3904</target>
         </node>
         <node name="west">
-          <description>You see the grassy plains.
+          <description>Ты видиш равнины укрытые различными травами.
 </description>
           <target>316</target>
         </node>
       </exits>
-      <name>Path in the plains</name>
+      <extraDescr>
+        <node keyword="roadstone">На дорожном камне написано:
+Спроси у жизни строгой,
+Какой идти дорогой?
+Куда по свету белому
+Отправиться с утра?
+Иди за Солнцем следом,
+Хоть этот путь неведом,
+Иди, мой друг, всегда иди
+Дорогою добра.
+</node>
+      </extraDescr>
+      <name>Дорога средь равнин</name>
       <sector>field</sector>
     </node>
     <node name="301">
-      <description>You are walking on a path situated in the rough plains.
-You feel the strong winds blow through your hair as you study
-the beautiful landscaping here. The path continues east and west.
+      <description>Ты находишься на дороге проложеной средь холмистых равнин. Осматривая
+бескрайние просторы ты чувствуешь как сильные порывы ветра колышат волосы.
+Отсюда пути расходятся в западном и восточном направлениях.
 </description>
       <exits>
         <node name="east">
-          <description>You notice nothing special, except that the path in the plains continues.
+          <description>Ничего необычного, дорога уходит ещё дальше по равнинам.
 </description>
           <target>302</target>
         </node>
         <node name="west">
-          <description>You notice nothing special, except that the path in the plains continues.
+          <description>Ничего необычного, дорога уходит ещё дальше по равнинам.
 </description>
           <target>300</target>
         </node>
       </exits>
-      <name>Path in the plains</name>
+      <name>Дорога средь равнин</name>
       <sector>field</sector>
     </node>
     <node name="302">
-      <description>You are walking on a path situated in the rough plains.
-You feel the strong winds blow through your hair as you study
-the beautiful landscaping here. The path continues north and west.
+      <description>Ты находишься на дороге проложеной средь холмистых равнин. Осматривая
+бескрайние просторы ты чувствуешь как сильные порывы ветра колышат волосы.
+Отсюда пути расходятся в северном и западном направлении.
 </description>
       <exits>
         <node name="north">
-          <description>You notice nothing special, except that the path in the plains continues.
+          <description>Ничего необычного, дорога уходит ещё дальше по равнинам.
 </description>
           <target>303</target>
         </node>
@@ -553,294 +566,297 @@ the beautiful landscaping here. The path continues north and west.
           <target>33307</target>
         </node>
         <node name="west">
-          <description>You notice nothing special, except that the path in the plains continues.
+          <description>Ничего необычного, дорога уходит ещё дальше по равнинам.
 </description>
           <target>301</target>
         </node>
       </exits>
-      <name>Path in the plains</name>
+      <name>Дорога средь равнин</name>
       <sector>field</sector>
     </node>
     <node name="303">
-      <description>You are walking on a path situated in the rough plains.
-You feel the strong winds blow through your hair as you study
-the beautiful landscaping here. The path leads north and south.
-To the east and the west you have the grassy plains.
+      <description>Ты находишься на дороге проложеной средь холмистых равнин. Осматривая
+бескрайние просторы ты чувствуешь как сильные порывы ветра колышат волосы.
+Отсюда пути расходятся в северном и южном направлении. На востоке и западе
+простирается степь укрытая плотным покрывалом из разнообразных трав.
 </description>
       <exits>
         <node name="east">
-          <description>To the east you notice the grassy plains.
+          <description>На востоке простирается степь укрытая травами.
 </description>
           <target>317</target>
         </node>
         <node name="north">
-          <description>You notice nothing special, except that the path in the plains continues.
+          <description>Ничего необычного, дорога уходит ещё дальше по равнинам.
 </description>
           <target>304</target>
         </node>
         <node name="south">
-          <description>You notice nothing special, except that the path in the plains continues.
+          <description>Ничего необычного, дорога уходит ещё дальше по равнинам.
 </description>
           <target>302</target>
         </node>
         <node name="west">
-          <description>To the west you can see more of the beautiful grassy plains.
+          <description>На западе простирается живописная степь.
 </description>
           <target>315</target>
         </node>
       </exits>
-      <name>Path in the plains</name>
+      <name>Дорога средь равнин</name>
       <sector>field</sector>
     </node>
     <node name="304">
-      <description>You are walking on a path situated in the rough plains.
-You feel the strong winds blow through your hair as you study
-the beautiful landscaping here. The Path leads north and south.
+      <description>Ты находишься на дороге проложеной средь холмистых равнин. Осматривая
+бескрайние просторы ты чувствуешь как сильные порывы ветра колышат волосы.
+Отсюда пути расходятся в северном и южном направлении.
 </description>
       <exits>
         <node name="north">
-          <description>The path continues north as small foothills begins to appear.
+          <description>Дорога продолжается на север устремившись к подножью холмов.
 </description>
           <target>305</target>
         </node>
         <node name="south">
-          <description>The path leads south towards the town.
+          <description>Дорога ведёт на юг в сторону большого города.
 </description>
           <target>303</target>
         </node>
       </exits>
-      <name>Path in the plains</name>
+      <name>Дорога средь равнин</name>
       <sector>field</sector>
     </node>
     <node name="305">
-      <description>You are walking on a path situated in the rough plains.
-You feel the strong winds blow through your hair as you watch the
-beautiful landscaping here. To the east and west you see the grassy plains.
-The path extends into small foothills to the north and also continues south.
+      <description>Ты находишься на дороге проложеной средь холмистых равнин. Осматривая
+бескрайние просторы ты чувствуешь как сильные порывы ветра колышат волосы.
+Отсюда пути расходятся во все стороны. На востоке и западе видна степь
+укрытая бархатным покрывалом из разнообразных трав. На севере расположено
+подножье небольших холмов. На юге дорога уходящая в сторону Мидгаарда.
 </description>
       <exits>
         <node name="east">
-          <description>You see the grassy plains here.
+          <description>Ты созерцаешь степь укрытую травами.
 </description>
           <target>321</target>
         </node>
         <node name="north">
-          <description>The path continues into the small foothills.
+          <description>Дорога ведёт к подножью небольшого холма.
 </description>
           <target>306</target>
         </node>
         <node name="south">
-          <description>The path continues towards Midgaard.
+          <description>Дорога продолжается в сторону Мидгаарда.
 </description>
           <target>304</target>
         </node>
         <node name="west">
-          <description>You see the grassy plains here.
+          <description>Ты созерцаешь степь укрытую травами.
 </description>
           <target>320</target>
         </node>
       </exits>
-      <name>Path in the plains</name>
+      <name>Дорога средь равнин</name>
       <sector>field</sector>
     </node>
     <node name="306">
-      <description>You are on the path leading through the small foothills.
-The wind blow through your hair as you study the beautiful
-landscaping here. From the north you sense a certain freshness.
-The path continues east and south. You smell freshness from north.
+      <description>Ты на пути проходящем у основания небольших холмов. Осматривая бескрайние
+просторы ты чувствуешь как сильные порывы ветра колышат волосы. Дуновение
+северного ветра приносит ощущение прохлады. Отсюда пути расходятся в южном,
+северном и восточном направлениях.
 </description>
       <exits>
         <node name="east">
-          <description>The path continues towards east here.
+          <description>Дорога продолжается в восточном направлении.
 </description>
           <target>307</target>
         </node>
         <node name="north">
-          <description>You see grassy plains and perhaps some crystal clear water.
+          <description>Ты видшь вдали средь степи еле уловимый отблеск. Это вода?
 </description>
           <target>326</target>
         </node>
         <node name="south">
-          <description>The path in the plains wind through the small foothills.
+          <description>Проходя у подножья холмов дорога уходит вглубь степей.
 </description>
           <target>305</target>
         </node>
       </exits>
-      <name>Path in the foothills</name>
+      <name>Дорога у подножья холмов</name>
       <sector>field</sector>
     </node>
     <node name="307">
-      <description>You are walking on a path situated in the small foothills.
-The winds are more than average here but it feels nice. You can follow
-the path east or west.
+      <description>Ты на пути проходящем у основания небольших холмов. Здесь ветер усиливается
+и приятное ощущение свежести наполняет твою грудь. Дорога немного извиваясь
+проходит с запада на восток.
 </description>
       <exits>
         <node name="east">
-          <description>The path continues in the foothills
+          <description>Дорога проходит у подножья холмов.
 </description>
           <target>308</target>
         </node>
         <node name="west">
-          <description>To the west the path takes a bend southwards.
+          <description>На западе дорога поворачивает в южном направлении.
 </description>
           <target>306</target>
         </node>
       </exits>
-      <name>Path in the foothills</name>
+      <name>Дорога у подножья холмов</name>
       <sector>field</sector>
     </node>
     <node name="308">
-      <description>You are walking on a narrow path in the foothills.
-You feel the strong winds blow through your hair as you study
-the beautiful landscaping here. The path goes north and west.
+      <description>Ты на узкой дороге проходящей у основания небольших холмов. Осматривая
+живописный ланшафт ты чувствуешь как порывы сильного ветра теребят волосы.
+Извиваясь и огибая холмы дорога проходит с запада на север.
 </description>
       <exits>
         <node name="north">
-          <description>The narrow path through the foothills turns left here.
+          <description>Узкая дорога проходя у основания небольших холмов поворачивает на север.
 </description>
           <target>309</target>
         </node>
         <node name="west">
-          <description>To the west you can see the path continues.
+          <description>Дорога извиваясь продолжается на запад.
 </description>
           <target>307</target>
         </node>
       </exits>
-      <name>Path in the foothills</name>
+      <name>Дорога у подножья холмов</name>
       <sector>field</sector>
     </node>
     <node name="309">
-      <description>You are walking on a path situated in foothills.
-To the west you sense a certain freshness and the path continues
-south and east.
+      <description>
+Ты на узкой дороге проходящей у основания небольших холмов. С запада дует
+свежий ветер принося приятное ощущение прохлады. Дорога переваливая через
+небольшие возвышения проходит с юга на восток.
 </description>
       <exits>
         <node name="east">
-          <description>You see the path continues in the foothills.
+          <description>Дорога продолжается извиваясь у подножья холмов.
 </description>
           <target>310</target>
         </node>
         <node name="south">
-          <description>You see the path continues in the foothills.
+          <description>Дорога продолжается извиваясь у подножья холмов.
 </description>
           <target>308</target>
         </node>
         <node name="west">
-          <description>You see grassy plains and perhaps some crystal clear water.
+          <description>Ты видшь вдали средь степи еле уловимый отблеск. Это вода?
 </description>
           <target>326</target>
         </node>
       </exits>
-      <name>Path in the foothills</name>
+      <name>Дорога у подножья холмов</name>
       <sector>field</sector>
     </node>
     <node name="310">
-      <description>You are walking on a long path in the east-west direction.
-The surroundings are green, vegetated foothills.
-You are able to force your way through some dense plants to the north.
+      <description>Ты на протяженной дороге проходящей между холмов с запада на восток. Склоны
+прилегающих холмов покрыты густыми зарослями. Кажется что в этом месте есть
+возможность прорубиться на север.
 </description>
       <exits>
         <node name="east">
-          <description>To the east you notice that the path continues towards a T-intersection.
+          <description>Далеко на востоке дорога проходит через пересечение путей.
 </description>
           <target>311</target>
         </node>
         <node name="north">
-          <description>You can&apos;t really see much through the vegetation on the foothills.
+          <description>Из-за густых зарослей трудно разобрать что там находится.
 </description>
           <target>327</target>
         </node>
         <node name="west">
-          <description>You just see the path through the foothills.
+          <description>Дорога уходит на запад вдоль подножья холмов.
 </description>
           <target>309</target>
         </node>
       </exits>
-      <name>Path in the foothills</name>
+      <name>Дорога у подножья холмов</name>
       <sector>field</sector>
     </node>
     <node name="311">
-      <description>You are walking on the long, narrow path through the foothills.
-To your east you see a T-intersection and to the west the path
-continues far.
+      <description>Ты на протяженной, узкой дороге проходящей между холмов с запада на восток.
+На востоке находится пересечение путей. В западном направлении дорога уходит
+вдаль извиваясь у подножья холмов.
 </description>
       <exits>
         <node name="east">
-          <description>You can go to the T-intersection this way.
+          <description>Дорога проходит через пересечение путей.
 </description>
           <target>312</target>
         </node>
         <node name="west">
-          <description>You can see the long path through the plains.
+          <description>Дорога уходит вдаль извиваясь у подножья холмов.
 </description>
           <target>310</target>
         </node>
       </exits>
-      <name>Path in the foothills</name>
+      <name>Дорога у подножья холмов</name>
       <sector>field</sector>
     </node>
     <node name="312">
-      <description>You are standing on an intersection between 3 paths.
-To the west you can follow a long, narrow path through the foothills.
-To the north a wide path leads to the Village of Ofcol and an
-ancient path leads towards the south.
+      <description>Ты на пересечении путей. Дорога уходящая на север ведёт в Офкол. В южном
+направлении лежит еле различимая древняя дорога. С западного направления
+приходит дорога от подножья холмов. А на восток ведёт вытоптаная копытами
+дорога к замку Короля Артура (Камелот).
 </description>
       <exits>
         <node name="east">
-          <description>The holy castle of King Arthur.
+          <description>Замок Святого Короля Атрура.
 </description>
           <target>17301</target>
         </node>
         <node name="north">
-          <description>The wide road to Ofcol runs here.
+          <description>Дорога уходит в сторону городка под странным названием Офкол.
 </description>
           <target>313</target>
         </node>
         <node name="south">
-          <description>Here is a partially hidden, ancient looking path.
+          <description>Еле заметная древняя дорога уходит невесть куда.
 </description>
           <target>332</target>
         </node>
         <node name="west">
-          <description>You can see the long narrow path running through the foothills.
+          <description>Длинная и узкая дорога извивается у подножья небольших холмов.
 </description>
           <target>311</target>
         </node>
       </exits>
-      <name>The path intersection</name>
+      <name>Пересечение дорог</name>
       <sector>field</sector>
     </node>
     <node name="313">
-      <description>You are walking on a wide road with trail marks on it.  To the north
-you see the village of Ofcol and to the south there is the T intersection.
-You can enter the foothills west.  The foothills to your east are too
-steep to climb.
+      <description>
+Ты находишься на широкой, изъезженой дороге идущей с юга от пересечения
+и ведущей на север к небольшому городу Офкол. Склон ведущий на запад явно
+очень стрёмный но вполне проходимый. На востоке такой крутой склон что даже
+для храбрости опорожнив бочку самого забористого Рома ты не полезешь туда.
 </description>
       <exits>
         <node name="north">
-          <description>The road continues towards Ofcol.
+          <description>Дорога идёт прямиком к городу под странным названием Офкол.
 </description>
           <target>314</target>
         </node>
         <node name="south">
-          <description>You can see the T-intersection in the souther direction.
+          <description>Это направление ведёт в сторону ближайшего пересечения дорог.
 </description>
           <target>312</target>
         </node>
         <node name="west">
-          <description>You think you can climb these foothills.
+          <description>Трудно назвать это даже тропой, но попыхтев залезть можно.
 </description>
           <target>327</target>
         </node>
       </exits>
-      <name>Road to Ofcol</name>
+      <name>Дорога в Офкол</name>
       <sector>field</sector>
     </node>
     <node name="314">
-      <description>You are standing outside the village of Ofcol.
-The village looks very small, but still a nice and safe place to stay.
-You may enter the city to the north or journey towards the
-T-intersection in the southern direction.
+      <description>Ты возле городка под странным названием Офкол. Несмотря на свой малый размер
+он выглядит вполне пристойно и даже создаётся впечатление что здесь можно
+остаться на ночлег. Вход в город виден на севере, а к ближайшему пересечению
+дорог можно добраться направившись на юг.
 </description>
       <exits>
         <node name="north">
@@ -850,51 +866,51 @@ T-intersection in the southern direction.
           <target>5550</target>
         </node>
         <node name="south">
-          <description>Here you see the road go towards the intersection.
+          <description>Это направление ведёт в сторону ближайшего пересечения дорог.
 </description>
           <target>313</target>
         </node>
       </exits>
-      <name>Outside Ofcol</name>
+      <name>Перед городом Офкол</name>
       <sector>field</sector>
     </node>
     <node name="315">
-      <description>You walk in the grassy plains. On this little hill you can see
-two gallows, with rotting human tissue hanging from the ropes.
-There is a sign here.
+      <description>Ты находишься в степи. На невысоком холме установлено две виселицы с
+гниющими ошмётками человеческих тел свисающих на верёвках. Видимо для
+тех кому интересно что же это за место здесь есть табличка (sign).
 </description>
       <exits>
         <node name="east">
-          <description>To the east you can see a small path in the plains.
+          <description>Дорога идёт на восток средь холмистых равнин.
 </description>
           <target>303</target>
         </node>
         <node name="north">
-          <description>The plains extend far to the north.
+          <description>Равнины простераются далеко на север.
 </description>
           <target>320</target>
         </node>
         <node name="south">
-          <description>To the south you can see a small path in the plains.
+          <description>Дорога идёт в южном направлении средь холмистых равнин.
 </description>
           <target>300</target>
         </node>
         <node name="west">
-          <description>The plains extend far to the west.
+          <description>Обширные равнины простераются далеко на запад.
 </description>
           <target>318</target>
         </node>
       </exits>
       <extraDescr>
-        <node keyword="sign">The sign says:
-  Loyal citizens of Midgaard.  These are the earthly remains of the
-  two heretics &apos;Dim&apos; and &apos;Gamma&apos; of this world. Having forged them-
-  selves to immortality, they called upon themselves the anger of the
-  implementators.  Let this be a lesson too all .....
-                                    -- the Powers that Be.
+        <node keyword="sign">Табличка гласит:
+  Законопослушные жители Мидгаарда. Тленные останки двух заблудших еретиков
+  '{DDim{x' и '{DGamma{x' оставлены здесь навечно за то, что в гордыне возомнили
+  себя бесcмертными чем вызвали праведный гнев создателей сего мира. Пусть
+  их пример послужит хорошим уроком для остальных...
+                                    -- {YТираны сего мира.{x
 </node>
       </extraDescr>
-      <name>Gallow hill</name>
+      <name>Холм с виселицами</name>
       <sector>hills</sector>
     </node>
     <node name="316">
