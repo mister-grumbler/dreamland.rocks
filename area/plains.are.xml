@@ -1174,23 +1174,21 @@
       <description>Ты движешься у подножья холмов с крутыми склонами. Приходится постоянно
 петлять чтоб обойти их, а порой даже забираться вверх чтоб перевалиться
 через очередной холм преградивший твой путь. Пологие участки некоторых
-из них поросли соснами (trees). Вдоль северной стороны возвышается
-горная гряда.
+из них поросли соснами. Вдоль северной стороны возвышается горная гряда.
 </description>
       <exits>
         <node name="east">
-          <description>Холмистая местность постепенно снижаясь уходит далеко на восток.
+          <description>Холмистая местность простирается далеко на восток.
 </description>
           <target>326</target>
         </node>
         <node name="north">
-          <description>
-Невесть откуда идёт Королевская дорога. Наверно Король выезжает сюда на охоту.
+          <description>Невесть откуда идёт Королевская дорога. Наверно Король выезжает сюда на охоту.
 </description>
           <target>15201</target>
         </node>
         <node name="west">
-          <description>Бугристый пейзаж из холмов простираются далеко на запад.
+          <description>Холмистая местность простирается далеко на запад.
 </description>
           <target>324</target>
         </node>
@@ -1199,53 +1197,61 @@
       <sector>hills</sector>
     </node>
     <node name="326">
-      <description>You are standing by a pool in the small foothills. It is clear and cold.
-A steep slope rises up into the foothills to the north. Behind them ...
-the mountains.
+      <description>Берег тихого озера (pool) расположеного между холмов. Вода в нём кристально
+чистая и весьма холодная. Крутые склоны холма возвышаются на севере. А за
+ним видны ... ещё более крутые склоны гор.
 </description>
       <exits>
         <node name="east">
-          <description>To the east you notice a small path in the foothills.
+          <description>Небольшая дорога уходит на восток извиваясь межь холмов.
 </description>
           <target>309</target>
         </node>
         <node name="south">
-          <description>To the south a path winds its way south into the plains.
+          <description>Дорога уходит на юг в сторону степей.
 </description>
           <target>306</target>
         </node>
         <node name="west">
-          <description>The foothills extend far to the west.
+          <description>Холмистая местность простирается далеко на запад.
 </description>
           <target>325</target>
         </node>
       </exits>
       <extraDescr>
-        <node keyword="pool">The pool is crystal clear, but as you look into it you notice that
-you can&apos;t see the bottom of it ... it must be pretty deep.
+        <node keyword="pool озеро">Озеро наполнено кристально чистой водой, но как ты не пытался увидеть дно
+так и не получилось. Скорей всего оно очень глубокое. В твоей голове словно
+молния возникает мысль: Здесь должна водиться рыба (fish).
+</node>
+        <node keyword="fish trout рыба форель">Ты замираешь на минутку подобрав хороший ракурс и просматривая толщу воды
+ловишь взглядом пару здоровенных рыбин. Они неспешно двигаются поблёскивая
+золотистыми боками. Это форель! Желание вкусно поужинать одолевает тебя...
+Но поймать её нечем! Остаётся лишь проводить взглядом свой вероятный и
+почти королевский ужин.
 </node>
       </extraDescr>
-      <name>The pool in the foothills</name>
+      <name>Озеро между холмов</name>
       <sector>hills</sector>
     </node>
     <node name="327">
-      <description>You are walking in some foothills. It is rather hard to move here.
-Further to the north you can see the mountains towering over you.
-Several pinetrees grow here.
+      <description>Ты движешься у подножья холмов с крутыми склонами. Приходится постоянно
+петлять чтоб обойти их, а порой даже забираться вверх чтоб перевалиться
+через очередной холм преградивший твой путь. Пологие участки некоторых
+из них поросли соснами. Вдоль северной стороны возвышается горная гряда.
 </description>
       <exits>
         <node name="east">
-          <description>To the east you notice a small path in the foothills.
+          <description>На востоке видна дорога уходящая вдаль извиваясь между холмов.
 </description>
           <target>313</target>
         </node>
         <node name="south">
-          <description>To the south a steep slope runs down to a small path in the foothills.
+          <description>По крутому склону уходит дорога в сторону степей.
 </description>
           <target>310</target>
         </node>
       </exits>
-      <name>The foothills</name>
+      <name>Предгорье</name>
       <resets>
         <drop vnum="300"/>
       </resets>
