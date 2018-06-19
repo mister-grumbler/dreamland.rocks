@@ -486,8 +486,7 @@
   </objects>
   <rooms>
     <node name="300">
-      <description>
-Ты находишься на дороге проложеной средь холмистых равнин. Осматривая
+      <description>Ты находишься на дороге проложеной средь холмистых равнин. Осматривая
 бескрайние просторы ты чувствуешь как сильные порывы ветра колышат волосы.
 От этого перекрёстка пути расходятся на запад, север и восток. К югу видны
 северные врата Мидгаарда. На обочине установлен путевой камень (roadstone)
@@ -914,205 +913,211 @@
       <sector>hills</sector>
     </node>
     <node name="316">
-      <description>You walk in the grassy plains among the herbs which grow here. The wind is
-strong and rough. Far to the north you can see the foothills and further on
-mountain peaks are visible.
+      <description>Двигаясь по монотоной дороге в окружении степных трав ты думаешь о чём-то.
+Сильные порывы ветра обдают волнами аромата источаемого степными травами.
+Далеко на севере видны холмы, а за ними возвышающиеся пики горного хребта.
 </description>
       <exits>
         <node name="east">
-          <description>When you look to the east you notice at small path.
+          <description>Обратив свой взор на восток ты замечаешь небольшую дорогу.
 </description>
           <target>300</target>
         </node>
         <node name="north">
-          <description>The plains extend far to the north.
+          <description>Степь простирается далеко на север и теряется в дымке средь холмов.
 </description>
           <target>318</target>
         </node>
       </exits>
-      <name>Grassy plains</name>
+      <name>Степь</name>
       <resets>
         <drop vnum="304"/>
       </resets>
       <sector>hills</sector>
     </node>
     <node name="317">
-      <description>You walk in the grassy plains among the herbs which grow here. The wind is
-strong and rough. Far to the north you can see the foothills and further on
-mountain peaks are visible. City of Midgaard is to the south but so are some
-VERY steep slopes.
+      <description>Двигаясь по монотоной дороге в окружении степных трав ты думаешь о чём-то.
+Сильные порывы ветра обдают волнами аромата источаемого степными травами.
+Далеко на севере видны холмы, а за ними возвышающиеся пики горного хребта.
+К югу открывается прекрасный вид на Мидгаард но в этом направлении очень
+крутые склоны. Глядя ни них ты понимаешь, что достаточно одного неверного
+шага чтоб скатываясь вниз свернуть себе шею.
 </description>
       <exits>
         <node name="east">
-          <description>The plains extend far to the east.
+          <description>Степь простирается далеко на восток.
 </description>
           <target>338</target>
         </node>
         <node name="south">
-          <description>Some VERY steep slopes prevent you from going this way, it might kill you.
+          <description>Очень крутой склон поросший травой на котором запросто можно угробиться.
 </description>
           <target>345</target>
         </node>
         <node name="west">
-          <description>A small path is running through the plains.
+          <description>Еле заметная дорога средь степи уходит на запад.
 </description>
           <target>303</target>
         </node>
       </exits>
-      <name>Grassy plains</name>
+      <name>Степь</name>
       <sector>hills</sector>
     </node>
     <node name="318">
-      <description>You walk in the beautiful grassy plains. The wind is strong and rough.
-Far to the north you can see the foothills and further on mountain peaks
-are visible.
+      <description>Ты находишься на дороге идущей куда-то сквозь степь. Сильные порывы ветра
+обдают волнами аромата источаемого разнообразными степными травами. Далеко
+на севере видны холмы, а за ними возвышающиеся пики горного хребта.
 </description>
       <exits>
         <node name="east">
-          <description>The plains extend far to the east.
+          <description>Степь простирается далеко на восток.
 </description>
           <target>315</target>
         </node>
         <node name="north">
-          <description>The plains extend far to the north.
+          <description>Степь простирается далеко на север.
 </description>
           <target>319</target>
         </node>
         <node name="south">
-          <description>The plains extend far to the south.
+          <description>Степь простирается далеко на юг.
 </description>
           <target>316</target>
         </node>
       </exits>
-      <name>Grassy plains</name>
+      <name>Степь</name>
       <resets>
         <mob limit="10" maxHere="4" vnum="309"/>
       </resets>
       <sector>hills</sector>
     </node>
     <node name="319">
-      <description>You walk in the grassy plains among the herbs which grow here. The wind is
-strong and rough. To the north you can see the foothills and just behind
-mountain peaks are visible.
+      <description>Двигаясь по монотоной дороге в окружении степных трав ты думаешь о чём-то.
+Сильные порывы ветра обдают волнами аромата источаемого степными травами.
+Далеко на севере видны холмы. А за ними в сизой дымке, почти сливаясь с
+линией горизонта, возвышаются пики горного хребта.
 </description>
       <exits>
         <node name="east">
-          <description>The plains extend far to the east.
+          <description>Степь простирается далеко на восток.
 </description>
           <target>320</target>
         </node>
         <node name="north">
-          <description>To the north, the plains extend into small foothills, behind a small hill
-you notice something ...
+          <description>На севере степь упирается в подножье холмов. На ближайшем из них виднеется
+что-то странное...
 </description>
           <target>330</target>
         </node>
         <node name="south">
-          <description>The plains extend far to the south.
+          <description>Степь простирается далеко на юг.
 </description>
           <target>318</target>
         </node>
       </exits>
-      <name>Grassy plains</name>
+      <name>Степь</name>
       <resets>
         <drop vnum="301"/>
       </resets>
       <sector>hills</sector>
     </node>
     <node name="320">
-      <description>You walk in some grassy plains. The wind is strong and rough. To the
-north you can see the foothills and further on mountain peaks are visible.
+      <description>Ты находишься на дороге идущей куда-то сквозь степь. Сильные порывы ветра
+обдают волнами аромата источаемого разнообразными степными травами. Далеко
+на севере видны холмы, а за ними возвышающиеся пики горного хребта.
 </description>
       <exits>
         <node name="east">
-          <description>East of here you see a winding path in the plains.
+          <description>На востоке видна степная дорога продуваемая ветрами.
 </description>
           <target>305</target>
         </node>
         <node name="north">
-          <description>The plains extend into small foothills to the north.
+          <description>На севере степь упирается в подножье холмов.
 </description>
           <target>322</target>
         </node>
         <node name="south">
-          <description>The plains extend far to the south.
+          <description>Степь простирается далеко на юг.
 </description>
           <target>315</target>
         </node>
         <node name="west">
-          <description>The plains extend far to the west.
+          <description>Степь простирается далеко на запад.
 </description>
           <target>319</target>
         </node>
       </exits>
-      <name>Grassy plains</name>
+      <name>Степь</name>
       <sector>hills</sector>
     </node>
     <node name="321">
-      <description>You walk in the grassy plains. The wind is fairly strong.
+      <description>Натужно двигаясь по степи под порывами сильного ветра ты мечтаешь хотябы
+на несколько минут найти себе укрытие чтоб расслабиться и отдохнуть.
 </description>
       <exits>
         <node name="south">
-          <description>The plains extend far to the south.
+          <description>Степь простирается далеко на юг.
 </description>
           <target>338</target>
         </node>
         <node name="west">
-          <description>A small path is running through the plains.
+          <description>Еле заметная дорога идёт по степи.
 </description>
           <target>305</target>
         </node>
       </exits>
-      <name>Grassy plains</name>
+      <name>Степь</name>
       <sector>hills</sector>
     </node>
     <node name="322">
-      <description>You walk in the grassy foothills north of the plains. The wind is rough.
-To the north you can see foothills and just behind them mountain peaks
-are visible.
+      <description>Ты находишься у подножья холмов к северу от степей. Мощные порывы ветра
+ощущаются всем телом. На севере холмы постепенно увеличиваясь подступают
+к горной гряде.
 </description>
       <exits>
         <node name="north">
-          <description>The small foothills extend into foothills far to the north.
+          <description>Небольшие холмы постепено увеличиваются подступая к горной гряде.
 </description>
           <target>324</target>
         </node>
         <node name="south">
-          <description>The small foothills extend into plains far to the south.
+          <description>Небольшие холмы постепенно уменьшаясь переходят в степь.
 </description>
           <target>320</target>
         </node>
         <node name="west">
-          <description>The small foothills extend far to the west.
+          <description>Множество небольших холмов образуют причудливый пейзаж на западе.
 </description>
           <target>330</target>
         </node>
       </exits>
-      <name>Grassy foothills</name>
+      <name>Зелёные холмы</name>
       <sector>hills</sector>
     </node>
     <node name="323">
-      <description>You walk in the steep foothills. It is rather hard to move here.
-To the north you can see a grassy valley with wildflowers.
+      <description>Ты находишься у подножья холмов с крутыми склонами. Приходится постоянно
+петлять чтоб обойти их, а порой даже забираться по склону чтоб идти дальше.
+На севере раскинулась зелёная долина усеяная полевыми цветами.
 </description>
       <exits>
         <node name="east">
-          <description>The foothills extend far to the east.
+          <description>Множество холмов образуют причудливый пейзаж на востоке.
 </description>
           <target>324</target>
         </node>
         <node name="north">
-          <description>You see a path toward the valley.
+          <description>Дорога спускается в цветущую долину.
 </description>
           <target>7800</target>
         </node>
         <node name="south">
-          <description>On the horizon you can see the City of Midgaard.
+          <description>Где-то вдали, почти у линии горизонта, виднеются крепостные стены Мидгаарда.
 </description>
           <target>330</target>
         </node>
       </exits>
-      <name>The steep foothills</name>
+      <name>Предгорье</name>
       <resets>
         <drop vnum="304"/>
         <mob limit="1" maxHere="1" vnum="300"/>
@@ -1124,69 +1129,73 @@ To the north you can see a grassy valley with wildflowers.
       <sector>hills</sector>
     </node>
     <node name="324">
-      <description>You are walking in the steep foothills. It is rather hard to move here.
-To the north you can see the mountains towering over you.  Pine trees
-grow here.
+      <description>Ты движешься у подножья холмов с крутыми склонами. Приходится постоянно
+петлять чтоб обойти их, а порой даже забираться вверх чтоб перевалиться
+через очередной холм преграждающий твой путь. Пологие участки некоторых
+из них поросли соснами (trees). Вдоль северной стороны возвышается
+горная гряда.
 </description>
       <exits>
         <node name="east">
-          <description>The foothills extend far to the east.
+          <description>Бугристый пейзаж из холмов простираются далеко на восток.
 </description>
           <target>325</target>
         </node>
         <node name="north">
-          <description>The path continues up the mountain.
+          <description>Дорога поднимается в горы.
 </description>
           <target>901</target>
         </node>
         <node name="south">
-          <description>The foothills extend downwards to the south. In the horizon you can
-see the City Of Midgaard.
+          <description>Холмистая местность постепенно снижаясь уходит на юг и где-то вдалеке еле
+различимы очертания Мидгаарда.
 </description>
           <target>322</target>
         </node>
         <node name="west">
-          <description>The foothills extend far to the west.
+          <description>Бугристый пейзаж из холмов простираются далеко на запад.
 </description>
           <target>323</target>
         </node>
       </exits>
       <extraDescr>
-        <node keyword="mountains">The mountains seems dark and all most alive, as they contrast against
-the sky.
+        <node keyword="mountains">Горы тёмной массой нависают над тобой контрастируя со светлым небосводом.
 </node>
-        <node keyword="pine tree trees pines">The all too quiet trees suggest that something roams these woods.
+        <node keyword="pine tree trees pines сосна сосны">Здесь как-то подозрительно тихо. Видимо кто-то распугал всю местную живность.
 </node>
       </extraDescr>
-      <name>The steep foothills</name>
+      <name>Предгорье</name>
       <resets>
         <mob limit="10" maxHere="4" vnum="309"/>
       </resets>
       <sector>hills</sector>
     </node>
     <node name="325">
-      <description>You are walking in the steep foothills. It is rather hard to move here.
-Further to the north you can see the mountains towering over you.
-Several pinetrees grow here.
+      <description>Ты движешься у подножья холмов с крутыми склонами. Приходится постоянно
+петлять чтоб обойти их, а порой даже забираться вверх чтоб перевалиться
+через очередной холм преградивший твой путь. Пологие участки некоторых
+из них поросли соснами (trees). Вдоль северной стороны возвышается
+горная гряда.
 </description>
       <exits>
         <node name="east">
-          <description>The foothills extend into smaller hills far to the east.
+          <description>Холмистая местность постепенно снижаясь уходит далеко на восток.
 </description>
           <target>326</target>
         </node>
         <node name="north">
-          <description>The King&apos;s Road.
+          <description>
+Невесть откуда идёт Королевская дорога. Наверно Король выезжает сюда на охоту.
 </description>
           <target>15201</target>
         </node>
         <node name="west">
-          <description>The foothills extend far to the west.
+          <description>Бугристый пейзаж из холмов простираются далеко на запад.
 </description>
           <target>324</target>
         </node>
       </exits>
-      <name>The steep foothills</name>
+      <name>Предгорье</name>
       <sector>hills</sector>
     </node>
     <node name="326">
