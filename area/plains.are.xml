@@ -1224,20 +1224,20 @@
 молния возникает мысль: Здесь должна водиться рыба (fish).
 </node>
         <node keyword="fish trout рыба форель">Ты замираешь на минутку подобрав хороший ракурс и просматривая толщу воды
-ловишь взглядом пару здоровенных рыбин. Они неспешно двигаются поблёскивая
-золотистыми боками. Это форель! Желание вкусно поужинать одолевает тебя...
-Но поймать её нечем! Остаётся лишь проводить взглядом свой вероятный и
-почти королевский ужин.
+выхватывашь взглядом несколько здоровенных рыбин. Они неспешно двигаются
+поблёскивая своими золотистыми боками. Это форель! Желание вкусно поужинать
+одолевает тебя... Но поймать её нечем! Остаётся лишь проводить взглядом
+свой вероятный и почти королевский ужин.
 </node>
       </extraDescr>
       <name>Озеро между холмов</name>
       <sector>hills</sector>
     </node>
     <node name="327">
-      <description>Ты движешься у подножья холмов с крутыми склонами. Приходится постоянно
-петлять чтоб обойти их, а порой даже забираться вверх чтоб перевалиться
-через очередной холм преградивший твой путь. Пологие участки некоторых
-из них поросли соснами. Вдоль северной стороны возвышается горная гряда.
+      <description>Ты находишься у подножья холмов с крутыми склонами. Приходится постоянно
+петлять чтоб обойти их, а порой даже идти траверсом вверх чтоб перевалиться
+через очередной холм преградивший твой путь. Обширные участки склонов заросли
+соснами. Вдоль северной стороны возвышается горная гряда.
 </description>
       <exits>
         <node name="east">
@@ -1258,45 +1258,47 @@
       <sector>hills</sector>
     </node>
     <node name="330">
-      <description>You are standing in the foothills. To the west, well hidden among the small
-foothills and pines, you see a small hut. To the north you can see
-the foothills, and some pineforrest. Further on mountain peaks are visible.
+      <description>Ты находишься у подножья холмов и примечаешь на западе маленькую хижину,
+скрывшуюся в тени раскидистых сосен. На севере видны склоны холмов укрытые
+густым сосновым лесом. Ещё дальше вздымаются пики горной гряды.
 </description>
       <exits>
         <node name="east">
-          <description>The foothills extend far to the east.
+          <description>Холмистая местность продолжаются далеко на восток.
 </description>
           <target>322</target>
         </node>
         <node name="north">
-          <description>The steep foothills seems hard to climb
+          <description>Очень крутой склон холма. Прийдётся попыхтеть чтоб туда забраться.
 </description>
           <target>323</target>
         </node>
         <node name="south">
-          <description>To the south the foothills extend into plains far to the south.
+          <description>Далеко в южном направлении холмы постепенно переходят в степь.
 </description>
           <target>319</target>
         </node>
         <node name="west">
-          <description>You see a small crumbled hut here, must be a hermit living here.
+          <description>Ты смотришь на маленькую, покосившуюся хижину. Наверно здесь в уединении
+живёт какой-то отшельник.
 </description>
           <flags>isdoor</flags>
           <keyword>door</keyword>
           <target>331</target>
         </node>
       </exits>
-      <name>In front of hut in foothills</name>
+      <name>Перед хижиной среди холмов</name>
       <sector>hills</sector>
     </node>
     <node name="331">
-      <description>You are inside the hermit&apos;s hut. It is rather old, but serves it purpose.
-It keeps its habitant from the rough winds and dangerous beasts of the
-plains and foothills. There is a small fireplace here.
+      <description>Внутри хижины, способной защитить своего обитателя от дикого зверя да
+сильного ветра, обустроены простой очаг (fireplace) и лежанка (bench).
+Конечно это не хоромы, но как-то можно выжить в этом ветхом строении из
+неотёсаного камня, древесной коры и палок.
 </description>
       <exits>
         <node name="east">
-          <description>Through the door you can see the foothills.
+          <description>Сквозь щели в жалком подобии двери просматривается холмистый ланшафт.
 </description>
           <flags>isdoor</flags>
           <keyword>door</keyword>
@@ -1304,11 +1306,14 @@ plains and foothills. There is a small fireplace here.
         </node>
       </exits>
       <extraDescr>
-        <node keyword="fireplace">The hermit cooks here.
+        <node keyword="fireplace очаг">На созданом из груды камней очаге отшельник готовит себе еду.
+</node>
+        <node keyword="bench лежанка">Пара коротких чурок вместо основания и каркас из сосновых веток укрытый
+слоем сухой травы.
 </node>
       </extraDescr>
       <flags>indoors</flags>
-      <name>Hermit&apos;s hut</name>
+      <name>Хижина отшельника</name>
       <resets>
         <mob limit="1" maxHere="1" vnum="301"/>
         <give vnum="303"/>
