@@ -20,8 +20,8 @@
       <dam_type>none</dam_type>
       <damage>2d5+3</damage>
       <default_pos>stand</default_pos>
-      <description>Аранкус высокий, худощавый друид с конопатым лицом.
-Кажется что он абсолютно спокоен и полон благожелательности к окружающим.
+      <description>Аранкус высокий, худощавый друид с конопатым лицом. Кажется что он
+абсолютно спокоен и полон благожелательности к окружающим.
 </description>
       <detection add="invis"/>
       <hit>2d10+170</hit>
@@ -122,13 +122,13 @@
       <damage>2d10+6</damage>
       <default_pos>stand</default_pos>
       <description>Шудде-М&apos;эл имеет длину около пяти метров и от него нестерпимо разит какой-то
-гадостью. Этот огромный червь так давно стережет сокровища Г&apos;арна, что даже
+гадостью. Этот огромный червь так давно стережет сокровища Г&apos;харна, что даже
 старожилы не могут сказать кто же был сторожем до него.
 </description>
       <detection add="invis"/>
       <hit>5d10+500</hit>
       <level>24</level>
-      <long_descr>Шудде-М&apos;эл огромный, зловонный червь (worm) стерегущий сокровища Г&apos;арна.
+      <long_descr>Шудде-М&apos;эл огромный, зловонный червь (worm) стерегущий сокровища Г&apos;харна.
 </long_descr>
       <mana>12d9+100</mana>
       <material>0</material>
@@ -259,7 +259,8 @@
     <node name="300">
       <cost>10</cost>
       <description>Немного тимьяна (timian) растёт здесь. Его стебель с маленькими зелёными
-листьями и крошечными розовыми цветами.</description>
+листьями и крошечными розовыми цветами.
+</description>
       <extraDescr>
         <node keyword="herbs herb timian тимьян">Эта трава источает пряный аромат, может попробуешь её на вкус?
 </node>
@@ -278,7 +279,8 @@
     <node name="301">
       <cost>10</cost>
       <description>Немного чёрного ракитника (gyvel) растёт здесь, темно-зеленый стебель с
-чёрными листьями и крошечными кроваво-красными цветами.</description>
+чёрными листьями и крошечными кроваво-красными цветами.
+</description>
       <extraDescr>
         <node keyword="herbs herb gyvel ракитник">Эта трава имеет какой-то особый запах, быть может она ядовита?
 </node>
@@ -296,7 +298,8 @@
     </node>
     <node name="302">
       <description>Здесь растет ядовитый плющ (ivy). Хорошо что он ещё маленький и поэтому никому
-не доставляет хлопот.</description>
+не доставляет хлопот.
+</description>
       <extraDescr>
         <node keyword="plant ivy плющ">У этого растения сочные темно-зеленые листья. Вы замечаете на его стебле
 маленькие белые шипы.
@@ -358,8 +361,7 @@
       <cost>1</cost>
       <description>Странный амулет (amulet) покрытый слоем пыли лежит здесь.</description>
       <extraDescr>
-        <node keyword="amulet амулет">
-Судя по знакам изображенным на амулете, он принадлежал друиду. Амулет
+        <node keyword="amulet амулет">Судя по знакам изображенным на амулете, он принадлежал друиду. Амулет
 выглядит странно из-за обилия символов обозначающих силы природы.
 </node>
       </extraDescr>
@@ -437,12 +439,10 @@
       <cost>300</cost>
       <description>Прозрачное зелье (potion), завёрнутое в кожу, припрятано кем-то здесь.</description>
       <extraDescr>
-        <node keyword="potion clear зелье прозрачное">
-С первого взгляда ты замечаешь, что зелье очень необычное. И внимательно
+        <node keyword="potion clear зелье прозрачное">С первого взгляда ты замечаешь, что зелье очень необычное. И внимательно
 посмотрев на него ты осознаешь, что оно точно не из этого мира.
 </node>
-        <node keyword="leather кожа">
-Кожа, в которую завёрнуто зелье, очень старая и имеет странную фактуру.
+        <node keyword="leather кожа">Кожа, в которую завёрнуто зелье, очень старая и имеет странную фактуру.
 Ты не можешь понять с какого существа она.
 </node>
       </extraDescr>
@@ -723,8 +723,7 @@
       <sector>field</sector>
     </node>
     <node name="309">
-      <description>
-Ты на узкой дороге проходящей у основания небольших холмов. С запада дует
+      <description>Ты на узкой дороге проходящей у основания небольших холмов. С запада дует
 свежий ветер принося приятное ощущение прохлады. Дорога переваливая через
 небольшие возвышения проходит с юга на восток.
 </description>
@@ -811,7 +810,7 @@
           <target>313</target>
         </node>
         <node name="south">
-          <description>Еле заметная древняя дорога уходит невесть куда.
+          <description>Еле заметная древняя дорога уходит в сторону леса.
 </description>
           <target>332</target>
         </node>
@@ -825,8 +824,7 @@
       <sector>field</sector>
     </node>
     <node name="313">
-      <description>
-Ты находишься на широкой, изъезженой дороге идущей с юга от пересечения
+      <description>Ты находишься на широкой, изъезженой дороге идущей с юга от пересечения
 и ведущей на север к небольшому городу Офкол. Склон ведущий на запад явно
 очень стрёмный но вполне проходимый. На востоке такой крутой склон что даже
 для храбрости опорожнив бочку самого забористого Рома ты не полезешь туда.
@@ -859,8 +857,10 @@
 </description>
       <exits>
         <node name="north">
-          <description>You notice a sign saying : Stranger we welcome you to the
-                           peaceful city of Ofcol.
+          <description>Ты замечаешь установленый на обочине пограничный камень с надписью:
+   Здравствуй незнакомец!
+Добро пожаловать в наш мирный
+      городок "Офкол".
 </description>
           <target>5550</target>
         </node>
@@ -1322,322 +1322,338 @@
       <sector>inside</sector>
     </node>
     <node name="332">
-      <description>You are moving on an ancient path. The path is slightly covered with
-leaves and twitches.
-To the north you can see the T-crossing and the path continues south.
+      <description>Ты находишься на древней, ухабистой дороге. Здесь почти никто не ходит
+и от того она присыпана опавшей листвой. На севере находится пересечение
+путей, а дорога уходит на юг. Вверх по склону одного из холмов уходит тропа.
 </description>
       <exits>
         <node name="north">
-          <description>As you look to the north you see a T-intersection.
+          <description>На севере видно пересечение путей.
 </description>
           <target>312</target>
         </node>
         <node name="south">
-          <description>The ancient path continues through the plains.
+          <description>Древняя дорога продолжается в сторону степей.
 </description>
           <target>333</target>
         </node>
         <node name="up">
-          <description>An Ancient Path through the Dark Forest.
+          <description>Ответление от древней дороги уходит в сторону Тёмного Леса.
 </description>
           <target>2400</target>
         </node>
       </exits>
-      <name>The ancient path</name>
+      <name>Древняя дорога</name>
       <sector>forest</sector>
     </node>
     <node name="333">
-      <description>You are standing on the ancient path which runs north and south.
-The path is hardly visible here.
+      <description>Еле различимая древняя дорога проходит с севера на юг. В окружающем тебя
+лесу довольно спокойно и это немного странно.
 </description>
       <exits>
         <node name="north">
-          <description>You see the ancient path.
+          <description>Древняя дорога уходя на север теряется из виду за ветками.
 </description>
           <target>332</target>
         </node>
         <node name="south">
-          <description>You trace the path carefully and see no immediate dangers.
+          <description>Ты смотришь на юг пытаясь понять нет ли там опасности. Вроде тихо.
 </description>
           <target>334</target>
         </node>
       </exits>
-      <name>The ancient path</name>
+      <name>Древняя дорога</name>
       <sector>forest</sector>
     </node>
     <node name="334">
-      <description>You are standing on the ancient path which runs north and south.
-The path is hardly visible here.
+      <description>Еле различимая древняя дорога проходит с севера на юг ещё больше углубляясь
+в чащу леса. То там то здесь слышен шум птиц и ты порой успеваешь узреть
+лесного зверья до того как он успеет ретироваться в чащу заметив тебя.
 </description>
       <exits>
         <node name="north">
-          <description>You see the ancient path.
+          <description>Древняя дорога уходя на север теряется из виду за ветками.
 </description>
           <target>333</target>
         </node>
         <node name="south">
-          <description>You trace the path carefully and see no immediate dangers.
+          <description>Ты смотришь на юг пытаясь понять нет ли там опасности. Вроде тихо.
 </description>
           <target>335</target>
         </node>
       </exits>
-      <name>The ancient path</name>
+      <name>Древняя дорога в чаще леса</name>
       <resets>
         <mob limit="10" maxHere="4" vnum="309"/>
       </resets>
       <sector>forest</sector>
     </node>
     <node name="335">
-      <description>The path runs north and east from here.  You notice some markers placed
-along the side of the path.
+      <description>Древняя дорога расходится на восток и запад. В восточном направлении, на
+обочине ты замечаешь поросший мхом камень (stone). Через несколько метров
+ещё один. На другой обочине ещё один. Явно это не случайные камни.
 </description>
       <exits>
         <node name="east">
-          <description>Further ahead you see a bridge over a small creak.
+          <description>Впереди, в просвете лесной чащи, виден мост через небольшую расселину.
 </description>
           <target>336</target>
         </node>
         <node name="north">
-          <description>You see the ancient path winding its way north from here. Looks safe.
+          <description>Древняя дорога уходя на север теряется из виду за массивными ветвями.
 </description>
           <target>334</target>
         </node>
         <node name="west">
-          <description>The jungle</description>
+          <description>Заросли становятся настолько густыми что дальше ничего не видно.
+</description>
           <target>17171</target>
         </node>
       </exits>
       <extraDescr>
-        <node keyword="markers">The markers seems like normal stones, but the way they are
-arranged makes you think there is something special about them.
+        <node keyword="markers stone камень">Вроде обыкновенные камни, но их положение явно рукотворное. Похоже кто-то
+сделал маркировку этой дороги. Но зачем?!
 </node>
       </extraDescr>
-      <name>The ancient path</name>
+      <name>Развилка на древней дороге</name>
       <sector>forest</sector>
     </node>
     <node name="336">
-      <description>You have stepped upon a wooden bridge. It looks old but safe to cross.
-It is made of a wood you haven&apos;t seen before.
+      <description>Ты ступаешь по старому, деревянному мосту. Его не ремонтируют уже много лет
+но он всё ещё достаточно крепок чтобы перейти по нему на другую сторону.
+Пытаясь понять из какой породы дерева он сделан ты понимаешь, что не видел
+ничего подобного раньше.
 </description>
       <exits>
         <node name="east">
-          <description>The path continues, further ahead you notice some rock formations.
+          <description>Дорога направляется к скоплению (formation) каменных глыб.
 </description>
           <target>337</target>
         </node>
         <node name="west">
-          <description>The ancient path leads west and turns north further ahead.
+          <description>Древняя дорога ведёт на запад к еле заметной развилке.
 </description>
           <target>335</target>
         </node>
       </exits>
       <extraDescr>
-        <node keyword="rock formation formations">The rock formations are made of 7 huge, monolith like stones, placed
-in a symbolic circle.
-You notice it&apos;s possible to enter the ring.
+        <node keyword="rock formation formations скопление">Семь огромных, монолитных, каменных глыб выстроены в круг с небольшим
+зазором. Но учитывая масштаб, протиснуться внутрь скорей всего возможно.
 </node>
       </extraDescr>
-      <name>The wooden bridge</name>
+      <name>Деревянный мост</name>
       <sector>field</sector>
     </node>
     <node name="337">
-      <description>You find yourself located between the bridge and the rock formations.
-As you approach the formations you begin to realize the true size of
-them, about 15 feet tall and almost perfect rectangular shape.
-You feel impressed with the awesome sight.
+      <description>Находясь на пол пути от моста к скоплению (formation) каменных глыб ты
+можешь оценить их реальные размеры. Они примерно по пять метров в высоту
+и очень близки к прямоугольной форме. Это место выглядит очень загадочно.
 </description>
       <exits>
         <node name="east">
-          <description>To the east you enter the ring of stones. You wonder if it&apos;s safe.
+          <description>Теперь отчётливо видно, что войти в круг можно. Но безопасно ли это?
 </description>
           <target>339</target>
         </node>
         <node name="west">
-          <description>To the west the ancient path leads across the wooden bridge.
+          <description>Древняя дорога идёт по лесу пересекая деревянный мост.
 </description>
           <target>336</target>
         </node>
       </exits>
       <extraDescr>
-        <node keyword="rock formation formations">The rock formations are made of seven huge monolith placed in a circle.
-You notice it&apos;s possible to enter the ring.
+        <node keyword="rock formation formations скопление">Семь огромных, монолитных, каменных глыб выстроены в круг с небольшим
+зазором. Но этот зазор достаточно велик чтоб можно было войти внутрь.
 </node>
       </extraDescr>
-      <name>The ancient path</name>
+      <name>Древняя дорога</name>
       <sector>forest</sector>
     </node>
     <node name="338">
-      <description>You walk in the grassy plains among the herbs which grow here. The wind is
-strong and rough. Far to the north you can see the foothills and further on
-mountain peaks are visible.
+      <description>Двигаясь по степи средь многообразия растущих здесь трав ты чувствуешь как
+порывы сильного ветра теребят волосы. Вдали видны холмы, а за ними, почти
+сливаясь с горизонтом в сизой дымке, пики горной гряды. В юго-восточном
+направлении виден спуск в низину поросшую лесом.
 </description>
       <exits>
         <node name="down">
+          <description>Удаляясь от гор и холмов степь спускается в низину.
+</description>
           <target>8855</target>
         </node>
         <node name="north">
-          <description>The plains extend far to the north.
+          <description>Обширная степь простирается далеко на север.
 </description>
           <target>321</target>
         </node>
         <node name="west">
-          <description>The plains extend far to the east.
+          <description>Продуваемая всеми ветрами степь простирается далеко на запад.
 </description>
           <target>317</target>
         </node>
       </exits>
-      <name>Grassy plains</name>
+      <name>Степь</name>
       <resets>
         <drop vnum="304"/>
       </resets>
       <sector>hills</sector>
     </node>
     <node name="339">
-      <description>You are in the center of 7, 15 ft tall monolith like black stones.
-In the center of the ring formed by the monolith you can&apos;t help
-noticing a big sacrifice altar. The ground is covered with dirt, but the
-altar shows no sign of such. West of here is the ancient path.
+      <description>Ты в центре круга из семи монолитных (monolith), чёрных, каменных глыб
+пятиметровой высоты. В центре находится большой жертвенный алтарь (altar).
+Поверхность вокруг алтаря покрыта слоем грязи, но сам алтарь чист. В зазор
+меж двух камней видно как древняя дорога уходит на запад.
 </description>
       <exits>
         <node name="down">
-          <description>You see a tunnel down there.
+          <description>Это похоже на вход в тунель. И от туда исходит неприятный запах.
 </description>
           <target>340</target>
         </node>
         <node name="west">
-          <description>You see the ancient path and the wooden bridge here.
+          <description>Древняя дорога уходит в сторону деревянного моста.
 </description>
           <target>337</target>
         </node>
       </exits>
       <extraDescr>
-        <node keyword="stones g'harne monolith">The stones of G&apos;harne tower fifteen feet over you.
-The giant stones are made of a material you haven&apos;t seen before.
-It resembles black marble, but somehow feels different.
+        <node keyword="stones g'harne monolith глыба монолит">Глыбы Г&apos;харна возвышаются над тобой метров на пять. Эти огромные камни
+сделаны из породы которую ты нигде раньше не встречал. С первого взгляда она
+похожа на некую разновидность чёрного мрамора... Но но фактура не та.
 </node>
-        <node keyword="altar sacrifice">You move closer to examine the sacrifice altar of G&apos;harne.
-The altar is about 3 feet high, 10 feet long and 4 feet wide.
-It has engraved pictures of death rituals and horrifying worms.
+        <node keyword="altar sacrifice алтарь">Ты приближаешся к алтарю Г&apos;харна чтоб разглядеть его получше. Он около
+метра в высоту, чуть больше трёх метров в длину и примерно полтора метра в
+ширину. На нём грубовато выбиты сцены (picture) жертвоприношения (rituals)
+и поклонения огромным червям (worms).
 </node>
-        <node keyword="death rituals worms engraving picture">The pictures are depicting evil rituals.
-You see druids pouring blood over herbs on an altar like this one.
-There are people calling giant worms into existence with dark spells.
+        <node keyword="death rituals worms engraving picture сцены">Сцены изображают тёмные ритуалы Друидов поливающих кровью травы разложеные
+на алтаре похожем на этот. С помощью чёрной магии они вызывают огромных
+червей в наш мир.
 </node>
       </extraDescr>
-      <name>The Stones of G&apos;harne</name>
+      <name>Каменный алтарь Г&apos;харна</name>
       <sector>field</sector>
     </node>
     <node name="340">
-      <description>You are standing in a gloomy tunnel leading south and west, right under
-the altar of G&apos;harne.  The walls are covered with a smelly slime and small
-rotting pieces of a meat like substance, fills the air with an unbearable
-stench.  You might be able to force your way up into fresh air from here.
+      <description>Ты находишься в мрачном тунеле под алтарём Г&apos;харна идущем с юга на
+запад. На стенах есть немного какой-то слизи (slime) в перемешку с некими
+гниющими (rotting) ошмётками похожими на мясо. От этой дряни (substance)
+нестерпимо воняет. Может стоит вернуться на свежий воздух?
 </description>
       <exits>
         <node name="south">
+          <description>Тунель уходит на юг в темноту и неопределённость.
+</description>
           <target>341</target>
         </node>
         <node name="up">
-          <description>You welcome the sight of fresh air.
+          <description>Небольшие порции свежего воздуха манят тебя на поверхность.
 </description>
           <target>339</target>
         </node>
         <node name="west">
+          <description>Тунель уходит на запад в темноту и неопределённость.
+</description>
           <target>342</target>
         </node>
       </exits>
       <extraDescr>
-        <node keyword="meat rotting slime substance">You try to examine the substance closer, but must refrain from this
-as all you really want to do is puke.
-You puke.
+        <node keyword="meat rotting slime substance слизь">В попытке рассмотреть гниющую дрянь тебя начинает неудержимо тошнить.
+Ты отстраняешься но уже поздно! Что-то внутри тебя начинает конвульсивно
+сжиматься и... БУЭэээ!
 </node>
       </extraDescr>
       <flags>dark indoors</flags>
-      <name>Dark smelly tunnels</name>
+      <name>Тёмный и вонючий тунель</name>
       <sector>inside</sector>
     </node>
     <node name="341">
-      <description>The tunnel comes to an abrupt end here. It simply looks like it
-hasn&apos;t been excavated further.  North of here the tunnel makes a turn east.
+      <description>Оппа! Тупичок. Так даже не интересно. Похоже, что кто-то просто передумал
+копать тунель дальше. Но сзади есть поворот на восток. Быть может там
+окажется продолжение.
 </description>
       <exits>
         <node name="north">
+          <description>Тунель идёт на север к выходу.
+</description>
           <target>340</target>
         </node>
       </exits>
       <flags>dark indoors</flags>
-      <name>Dead end of tunnel</name>
+      <name>Тупик в тунеле</name>
       <sector>inside</sector>
     </node>
     <node name="342">
-      <description>You are standing in a gloomy tunnel leading east and west.
-The walls are covered with a smelly slime and small rotting pieces of a
-meat like substance, fills the air with an unbearable stench.
+      <description>Ты находишься в мрачном тунеле идущем с востока на запад. На стенах видна
+какая-то слизь (slime) в перемешку с гниющими (rotting) ошмётками похожими
+на мясо. От этой субстанции (substance) нестерпимо воняет. Хочешь
+попробовать её на зубок?
 </description>
       <exits>
         <node name="east">
-          <description>The tunnel continues in this direction.
+          <description>Тунель продолжается дальше на восток.
 </description>
           <target>340</target>
         </node>
         <node name="west">
-          <description>The tunnel continues in this direction.
+          <description>Тунель продолжается дальше на запад.
 </description>
           <target>343</target>
         </node>
       </exits>
       <extraDescr>
-        <node keyword="meat rotting slime substance">You try to examine the substance closer, but must refrain from this
-as all you really want to do is puke.
-You puke.
+        <node keyword="meat rotting slime substance слизь">В попытке рассмотреть гниющую дрянь тебя начинает неудержимо тошнить.
+Ты отстраняешься но уже поздно! Что-то внутри тебя начинает конвульсивно
+сжиматься и... БУЭэээ!
 </node>
       </extraDescr>
       <flags>dark indoors</flags>
-      <name>Dark smelly tunnels</name>
+      <name>Тёмный и вонючий тунель</name>
       <sector>inside</sector>
     </node>
     <node name="343">
-      <description>You are standing in a small smelly tunnel under the plains.
-The smell is growing stronger to the west, so is the density of the
-slime and other undeterminable substances ...
+      <description>Ты зачем-то находишься в узком и адово вонючем тунеле уходящем куда-то под
+холмистые равнины. В западном направлении вонь, как и количество какой-то
+странной слизи (slime) на стенах, постепенно увеличивается.
 </description>
       <exits>
         <node name="east">
-          <description>The unbearable stench is less intensive in this direction.
+          <description>Кажется, что с этой стороны воняет гораздо меньше.
 </description>
           <target>342</target>
         </node>
         <node name="west">
-          <description>The tunnel seems to extend into some kind of cave.
+          <description>Тунель расширяется и похоже, что дальше обширная пещера.
 </description>
           <target>344</target>
         </node>
       </exits>
       <extraDescr>
-        <node keyword="slime substance">BWADR! ...
+        <node keyword="slime substance слизь">БУЭэээ! ...
 </node>
       </extraDescr>
-      <name>Dark smelly tunnels</name>
+      <name>Тёмный и вонючий тунель</name>
       <sector>inside</sector>
     </node>
     <node name="344">
-      <description>You stand in the hall of G&apos;harne. The walls are dressed with strange
-carving, symbolizing human sacrifice and people worshipping giant worms.
-Disgusting slime and gore are also very dominant in your view of this room.
+      <description>Ты забрёл в Зал Г&apos;харна. Стены сплошь покрыты странными рисунками
+символизирующими жертвоприношение и поклонение огромным червям. Кругом
+какая-то гадкая слизь и большие кляксы запёкшейся крови. Такое ощущение,
+что кого-то здесть просто разрывали на кусочки. Ты следующий?
 </description>
       <exits>
         <node name="east">
-          <description>It looks like a good idea just to run in this direction.
+          <description>Такое ощущение, что надо не медля убегать именно в этом направлении.
 </description>
           <target>343</target>
         </node>
       </exits>
       <extraDescr>
-        <node keyword="slime gore">You puke.
+        <node keyword="slime gore слизь кровь">Ты пытаешься присмотреться... Тебя стошнило!
 </node>
       </extraDescr>
       <flags>dark indoors</flags>
-      <name>The Hall of G&apos;harne</name>
+      <name>Зал Г&apos;харна</name>
       <resets>
         <mob limit="1" maxHere="1" vnum="305"/>
         <give vnum="310"/>
@@ -1646,13 +1662,14 @@ Disgusting slime and gore are also very dominant in your view of this room.
       <sector>inside</sector>
     </node>
     <node name="345">
-      <description>You try to climb down the slope.
+      <description>Ты решаешь что можно срезать пару вёрст спустившись прям по этому склону.
 &gt;
-You slip!
-You fall and tumble.
-You hit your head HARD.
-You die.
-You&apos;ve fallen, and you can&apos;t get up!
+Спускаясь ты подскальзываешься на свежей лепёшке драконьего помёта!
+В голове успевает мелькнуть: Ну какого...!!! Теперь не отмоешься!
+Стремительно ускоряясь ты кубарем катишься вниз по склону...
+Перед глазами всё мелькает и вдруг ... пустота.
+Ощущение собственного тела покинуло тебя. Ты умер?
+Пока не понятно. Но возможности встать и идти почему-то нет.
 </description>
       <flags>no_mob</flags>
       <name>Steep slope</name>
